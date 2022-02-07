@@ -39,15 +39,17 @@ GITHUB_SHA=$GITHUB_SHA cicd/osm/scripts/export.sh local_output_dir=$OUTPUT_BASE/
 cicd/scripts/pull_or_build.sh repo=tomfumb image=bvnordic-osm-renderer:2 build_dir=cicd/osm/docker/renderer context_dir=cicd upload_if_missing=$UPLOAD_IF_MISSING
 docker run --rm -e REVISION=$BEFORE -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 ogr2ogr -f "GPKG" /code/$OUTPUT_BASE/compare.gpkg /workdir/main-data.gpkg -nln before -sql "SELECT * FROM Trails"
 docker run --rm -e REVISION=$AFTER -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 ogr2ogr -f "GPKG" /code/$OUTPUT_BASE/compare.gpkg /workdir/main-data.gpkg -nln after -update -sql "SELECT * FROM Trails"
-docker run --rm -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 ogr2ogr -f "GeoJSON" /code/$OUTPUT_BASE/diff_3857.geojson /code/$OUTPUT_BASE/compare.gpkg -nln diff -t_srs "EPSG:3857" -dialect sqlite -sql "SELECT geom FROM (SELECT ST_Envelope(ST_Transform(ST_Difference(a.geom, b.geom), 3857)) AS geom FROM after a LEFT JOIN before b ON a.fid = b.fid UNION SELECT ST_Envelope(ST_Transform(ST_Difference(b.geom, a.geom), 3857)) AS geom FROM before b LEFT JOIN after a ON b.fid = a.fid) WHERE geom IS NOT NULL"
-rm $OUTPUT_BASE/compare.gpkg
+docker run --rm -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 ogr2ogr -f "GeoJSON" /code/$OUTPUT_BASE/parts_3857.geojson /code/$OUTPUT_BASE/compare.gpkg -nln diff -t_srs "EPSG:3857" -dialect sqlite -sql "SELECT geom FROM (SELECT ST_Envelope(ST_Transform(ST_Difference(a.geom, b.geom), 3857)) AS geom FROM after a LEFT JOIN before b ON a.fid = b.fid UNION SELECT ST_Envelope(ST_Transform(ST_Difference(b.geom, a.geom), 3857)) AS geom FROM before b LEFT JOIN after a ON b.fid = a.fid) WHERE geom IS NOT NULL"
+docker run --rm -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 ogr2ogr -f "GeoJSON" /code/$OUTPUT_BASE/diff_3857.geojson /code/$OUTPUT_BASE/parts_3857.geojson -nln diff -t_srs "EPSG:3857" -dialect sqlite -sql "SELECT ST_Union(Geometry) FROM diff"
+rm $OUTPUT_BASE/compare.gpkg $OUTPUT_BASE/parts_3857.geojson
+
 
 # render OSM data from each revision
 docker run --rm -e REVISION=$BEFORE -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 /workdir/cicd/osm/docker/renderer/render.sh data_dir=/code/$OUTPUT_BASE/$BEFORE/main changes_3857=/code/$OUTPUT_BASE/diff_3857.geojson
 docker run --rm -e REVISION=$AFTER -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 /workdir/cicd/osm/docker/renderer/render.sh data_dir=/code/$OUTPUT_BASE/$AFTER/main changes_3857=/code/$OUTPUT_BASE/diff_3857.geojson
 rm -f $OUTPUT_BASE/diff_3857.geojson
 
-# # run change detection on before/after images
+# run change detection on before/after images
 python -m cicd.compare.detect_changes $BEFORE $AFTER $PWD/$OUTPUT_BASE --before_after_exclude bvnordic\\.osm\\-.+
 
 # clean up 

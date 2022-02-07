@@ -26,32 +26,36 @@ def generate() -> None:
     # in the same image without exceeding a maximum preferred extent or image size
     with open(environ["CHANGES_3857"], "r") as f:
         changes = loads(f.read())
-    for feature in changes["features"]:
-        change_rect = grow_rect_for_rendering(feature["geometry"]["coordinates"][0])
-        preferred_candidate = None
-        # assumes candidates list is ordered zoom_level ascending, order derived from ZOOM_TO_TILE_COUNT
-        for candidate in image_dims_for_rect(change_rect):
-            if candidate.x <= pixel_max and candidate.y <= pixel_max:
-                preferred_candidate = candidate
-        if preferred_candidate is None:
-            LOGGER.error(
-                f"Unable to determine preferred export candidate from list: {linesep}{image_dims_for_rect(change_rect)}"
-            )
+    for multipolygon in changes["features"]:
+        for polygon in multipolygon["geometry"]["coordinates"]:
+            change_rect = grow_rect_for_rendering(polygon[0])
+            preferred_candidate = None
+            # assumes candidates list is ordered zoom_level ascending, order derived from ZOOM_TO_TILE_COUNT
+            for candidate in image_dims_for_rect(change_rect):
+                if candidate.x <= pixel_max and candidate.y <= pixel_max:
+                    preferred_candidate = candidate
+            if preferred_candidate is None:
+                LOGGER.error(
+                    f"Unable to determine preferred export candidate from list: {linesep}{image_dims_for_rect(change_rect)}"
+                )
 
-        map = mapnik.Map(preferred_candidate.x, preferred_candidate.y)
-        mapnik.load_map(map, environ["MAPNIK_MAP_FILE"])
-        map.aspect_fix_mode = mapnik.aspect_fix_mode.RESPECT
-        map.zoom_to_box(
-            mapnik.Box2d(
-                change_rect[0][0], change_rect[0][1], change_rect[1][0], change_rect[2][1]
+            map = mapnik.Map(preferred_candidate.x, preferred_candidate.y)
+            mapnik.load_map(map, environ["MAPNIK_MAP_FILE"])
+            map.aspect_fix_mode = mapnik.aspect_fix_mode.RESPECT
+            map.zoom_to_box(
+                mapnik.Box2d(
+                    change_rect[0][0],
+                    change_rect[0][1],
+                    change_rect[1][0],
+                    change_rect[2][1],
+                )
             )
-        )
-        png_path = path.join(
-            environ["OUTPUT_DIR"],
-            f"{environ.get('OUTPUT_PREFIX', 'osm-')}{md5(dumps(change_rect).encode()).hexdigest()}.png",
-        )
-        mapnik.render_to_file(map, png_path, "png")
-        LOGGER.info(f"rendered to {png_path}")
+            png_path = path.join(
+                environ["OUTPUT_DIR"],
+                f"{environ.get('OUTPUT_PREFIX', 'osm-')}{md5(dumps(change_rect).encode()).hexdigest()}.png",
+            )
+            mapnik.render_to_file(map, png_path, "png")
+            LOGGER.info(f"rendered to {png_path}")
 
 
 def grow_rect_for_rendering(
