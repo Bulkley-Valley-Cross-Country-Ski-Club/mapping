@@ -93,7 +93,7 @@ jobs:
         run: |
           cicd/scripts/pull_or_build.sh repo=tomfumb image=bvnordic-osm-renderer:2 build_dir=cicd/osm/docker/renderer context_dir=cicd upload_if_missing=1
           docker run --rm -e REVISION=${{ steps.read_to_var_shas.outputs.PR_SHA1 }} -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 /workdir/cicd/osm/docker/renderer/render.sh data_dir=/code/${{ steps.read_to_var_dirs.outputs.OUTPUT_BASE }}/${{ steps.read_to_var_shas.outputs.PR_SHA1 }}/main changes_3857=/code/${{ steps.read_to_var_dirs.outputs.OUTPUT_BASE }}/diff_3857.geojson
-          docker run --rm -e REVISION=${{ steps.read_to_var_shas.outputs.PR_SHA2 }} -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 /workdir/cicd/osm/docker/renderer/render.sh data_dir=/code/${{ steps.read_to≈_var_dirs.outputs.OUTPUT_BASE }}/${{ steps.read_to_var_shas.outputs.PR_SHA2 }}/main changes_3857=/code/${{ steps.read_to_var_dirs.outputs.OUTPUT_BASE }}/diff_3857.geojson
+          docker run --rm -e REVISION=${{ steps.read_to_var_shas.outputs.PR_SHA2 }} -v $PWD:/code tomfumb/bvnordic-osm-renderer:2 /workdir/cicd/osm/docker/renderer/render.sh data_dir=/code/${{ steps.read_to_var_dirs.outputs.OUTPUT_BASE }}/${{ steps.read_to_var_shas.outputs.PR_SHA2 }}/main changes_3857=/code/${{ steps.read_to_var_dirs.outputs.OUTPUT_BASE }}/diff_3857.geojson
       - name: Python Dependencies (Change Detection)
         run: |
           pip install -r cicd/compare/requirements-detect.txt
