@@ -6,17 +6,22 @@ from hashlib import md5
 from json import dumps, loads
 from logging import getLogger
 from os import environ, linesep, path
+from tempfile import mkstemp
 from typing import Final, List  # type: ignore
 
 import mapnik
+from osgeo.gdal import Translate, Warp
 
-from .render_candidate import RenderCandidate
+from cicd.imagery.bounds import Bounds as DownloadBounds
+from cicd.imagery.tiles_to_tiff import EPSG_3857, execute as download_bg_img
+from cicd.osm.docker.renderer.render_candidate import RenderCandidate
 
 LOGGER: Final = getLogger(__file__)
-ZOOM_TO_TILE_COUNT: Final = [pow(4, x) for x in range(21)]
+ZOOM_TO_TILE_COUNT_ONE_AXIS: Final = [pow(2, x) for x in range(21)]
 MERCATOR_AXIS_MAX: Final = 20037508.3427892
 MERCATOR_AXIS_RANGE: Final = MERCATOR_AXIS_MAX * 2
 TILE_PIXELS: Final = 256
+TILE_URL: Final = "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
 
 
 def generate() -> None:
@@ -29,11 +34,25 @@ def generate() -> None:
     for multipolygon in changes["features"]:
         for polygon in multipolygon["geometry"]["coordinates"]:
             change_rect = grow_rect_for_rendering(polygon[0])
+            rect_id = md5(dumps(change_rect).encode()).hexdigest()
             preferred_candidate = None
             # assumes candidates list is ordered zoom_level ascending, order derived from ZOOM_TO_TILE_COUNT
             for candidate in image_dims_for_rect(change_rect):
                 if candidate.x <= pixel_max and candidate.y <= pixel_max:
                     preferred_candidate = candidate
+            bg_img_path = download_bg_img(
+                TILE_URL,
+                preferred_candidate.zoom_level,
+                DownloadBounds(
+                    xmin=change_rect[0][0],
+                    xmax=change_rect[1][0],
+                    ymin=change_rect[0][1],
+                    ymax=change_rect[2][1],
+                ),
+                f"{rect_id}-{md5(TILE_URL.encode()).hexdigest()}",
+                EPSG_3857,
+                EPSG_3857,
+            )
             if preferred_candidate is None:
                 LOGGER.error(
                     f"Unable to determine preferred export candidate from list: {linesep}{image_dims_for_rect(change_rect)}"
@@ -50,12 +69,28 @@ def generate() -> None:
                     change_rect[2][1],
                 )
             )
-            png_path = path.join(
+            _, png_path = mkstemp()
+            _, change_tif_path = mkstemp()
+            _, merge_tif_path = mkstemp()
+            output_png_path = path.join(
                 environ["OUTPUT_DIR"],
-                f"{environ.get('OUTPUT_PREFIX', 'osm-')}{md5(dumps(change_rect).encode()).hexdigest()}.png",
+                f"{environ.get('OUTPUT_PREFIX', 'osm-')}{rect_id}.png",
             )
             mapnik.render_to_file(map, png_path, "png")
-            LOGGER.info(f"rendered to {png_path}")
+            Translate(
+                change_tif_path,
+                png_path,
+                format="GTIFF",
+                outputBounds=[
+                    change_rect[0][0],
+                    change_rect[3][1],
+                    change_rect[1][0],
+                    change_rect[0][1],
+                ],
+            )
+            Warp(merge_tif_path, [bg_img_path, change_tif_path])
+            Translate(output_png_path, merge_tif_path, format="PNG", options="zlevel=9")
+            LOGGER.info(f"rendered to {output_png_path}")
 
 
 def grow_rect_for_rendering(
@@ -98,7 +133,7 @@ def image_dims_for_rect(rect_3857: List[List[float]]) -> List[RenderCandidate]:
             x=round(TILE_PIXELS * x_range / (MERCATOR_AXIS_RANGE / count)),
             y=round(TILE_PIXELS * y_range / (MERCATOR_AXIS_RANGE / count)),
         )
-        for i, count in enumerate(ZOOM_TO_TILE_COUNT)
+        for i, count in enumerate(ZOOM_TO_TILE_COUNT_ONE_AXIS)
     ]
 
 

@@ -17,6 +17,7 @@ RUN apt-get -y update && apt-get install -y \
     postgresql-13-postgis-3 \
     python3 \
     python3-mapnik \
+    python3-pip \
     python3-psycopg2 \
     && rm -rf /var/lib/apt/lists/*
 
@@ -25,6 +26,9 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -
     && rm -rf /var/lib/apt/lists/*
 
 RUN npm install -g carto
+
+COPY imagery/requirements.txt /requirements.txt
+RUN pip install -r /requirements.txt
 
 COPY osm/docker/renderer/conf/postgresql.conf /etc/postgresql/13/main/
 COPY osm/docker/renderer/conf/pg_hba.conf /etc/postgresql/13/main/
