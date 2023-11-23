@@ -27,9 +27,9 @@ if [ "$CI" == "true" ]; then
 fi
 
 # export map layouts from each revision for pixel comparison
-cicd/scripts/pull_or_build.sh repo=tomfumb image=qgis-exporter:2 build_dir=cicd/export/docker context_dir=cicd upload_if_missing=$UPLOAD_IF_MISSING
-docker run --rm -e REVISION=$BEFORE -v $PWD:/code -e SHORTCUT_FOR_TESTING tomfumb/qgis-exporter:2 /workdir/cicd/export/docker/generate.sh output_base=/code/$OUTPUT_BASE/$BEFORE png=1 permit_label_locks=1
-docker run --rm -e REVISION=$AFTER  -v $PWD:/code -e SHORTCUT_FOR_TESTING tomfumb/qgis-exporter:2 /workdir/cicd/export/docker/generate.sh output_base=/code/$OUTPUT_BASE/$AFTER png=1 permit_label_locks=1
+cicd/scripts/pull_or_build.sh repo=tomfumb image=qgis-exporter:3 build_dir=cicd/export/docker context_dir=cicd upload_if_missing=$UPLOAD_IF_MISSING
+docker run --rm -e REVISION=$BEFORE -v $PWD:/code -e SHORTCUT_FOR_TESTING tomfumb/qgis-exporter:3 /workdir/cicd/export/docker/generate.sh output_base=/code/$OUTPUT_BASE/$BEFORE png=1 permit_label_locks=1
+docker run --rm -e REVISION=$AFTER  -v $PWD:/code -e SHORTCUT_FOR_TESTING tomfumb/qgis-exporter:3 /workdir/cicd/export/docker/generate.sh output_base=/code/$OUTPUT_BASE/$AFTER png=1 permit_label_locks=1
 
 # export OSM data from each revision
 GITHUB_SHA=$GITHUB_SHA cicd/osm/scripts/export.sh local_output_dir=$OUTPUT_BASE/$BEFORE revision=$BEFORE
