@@ -21,7 +21,6 @@ TILE_URL: Final = "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
 
 
 def _get_dimensions(arr: List[Any]):
-    LOGGER.info(f"arr type: {type(arr)}")
     if not isinstance(arr, list):
         return 0
     return 1 + max(_get_dimensions(sublist) for sublist in arr)
