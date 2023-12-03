@@ -7,7 +7,7 @@ from json import dumps, loads
 from logging import getLogger
 from os import environ, linesep, path
 from tempfile import mkstemp
-from typing import Final, List  # type: ignore
+from typing import Any, Final, List  # type: ignore
 
 import mapnik
 from osgeo.gdal import Translate, Warp
@@ -20,15 +20,30 @@ LOGGER: Final = getLogger(__file__)
 TILE_URL: Final = "https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}"
 
 
+def _get_dimensions(arr: List[Any]):
+    LOGGER.info(f"arr type: {type(arr)}")
+    if not isinstance(arr, list):
+        return 0
+    return 1 + max(_get_dimensions(sublist) for sublist in arr)
+
+
 def generate() -> None:
     pixel_max = int(environ.get("PIXEL_MAX", 1200))
     with open(environ["CHANGES_3857"], "r") as f:
         changes = loads(f.read())
-    for multipolygon in changes["features"]:
-        if multipolygon["geometry"] is None:
+    for poly_or_multipoly in changes["features"]:
+        if poly_or_multipoly["geometry"] is None:
+            LOGGER.debug(f"no geometry for change feature {poly_or_multipoly}")
             continue
-        for polygon in multipolygon["geometry"]["coordinates"]:
-            change_rect = grow_rect_for_rendering(polygon[0])
+        for polygon in poly_or_multipoly["geometry"]["coordinates"]:
+            dim_count = _get_dimensions(polygon)
+            if dim_count == 2:
+                change_rect = grow_rect_for_rendering(polygon)
+            elif dim_count == 3:
+                change_rect = grow_rect_for_rendering(polygon[0])
+            else:
+                LOGGER.error(f"Problem growing polygon, unexpected dim count ({dim_count}) for {polygon}")
+                continue
             rect_id = md5(dumps(change_rect).encode()).hexdigest()
             preferred_candidate = None
             # assumes candidates list is ordered zoom_level ascending
