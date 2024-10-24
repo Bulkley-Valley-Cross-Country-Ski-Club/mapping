@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="tom" saveUserFull="Thomas Christian" saveDateTime="2024-10-24T17:06:58" projectname="" version="3.28.2-Firenze">
+<qgis saveUser="tom" saveUserFull="Thomas Christian" saveDateTime="2024-10-24T17:18:51" projectname="" version="3.28.2-Firenze">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -21,7 +21,7 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group expanded="0" name="gpx" checked="Qt::Checked" groupLayer="">
+    <layer-tree-group expanded="1" name="gpx" checked="Qt::Checked" groupLayer="">
       <customproperties>
         <Option/>
       </customproperties>
@@ -141,7 +141,7 @@
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer expanded="0" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+    <layer-tree-layer expanded="0" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
       <customproperties>
         <Option/>
       </customproperties>
@@ -218,32 +218,32 @@
   </layer-tree-group>
   <snapping-settings maxScale="0" mode="2" minScale="0" scaleDependencyMode="0" self-snapping="0" enabled="1" tolerance="6" unit="1" type="3" intersection-snapping="0">
     <individual-layer-settings>
-      <layer-setting maxScale="0" minScale="0" units="0" id="LodgeArea_201820181106201326918" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="trails_d8a24813_c39c_4c84_98c3_67e527dd79f1" enabled="0" tolerance="12" type="0"/>
-      <layer-setting maxScale="0" minScale="0" units="0" id="Trails_201820181106201327000" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Moonlit_skate_rip_tracks_3a2fa531_088a_47eb_ab02_228900ddcdec" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Hilltop_laps_skate_tracks_b901e4be_9e05_478f_bb74_a0c48f8ec795" enabled="0" tolerance="12" type="1"/>
       <layer-setting maxScale="0" minScale="0" units="1" id="Family_ski_skate_tracks_a24b4b90_1d1c_4dcf_ab97_61f44d64bc8d" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="0" id="POI_2018_copy20181106204310841" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="0" id="5m_Contour_Clip_Simplified20181127205312605" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Last_U14_practice_dad_ski_skate_tracks_3f1f2629_eabf_480c_9390_da33cb40a3b7" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Lots_of_hills_skate_tracks_c02c4e4c_705f_4311_8d3e_f7202413c117" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="0" id="Other_Roads_201820181106201326968" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Solo_skate_tracks_7f950ddd_853b_47d4_8251_41e6fcef5c8c" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Skate_with_Hugo_and_andy_tracks_298785c9_e17c_45fd_8e1e_77de2c005d5a" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" enabled="0" tolerance="12" type="0"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Backwards_Hustle_with_Pete_tracks_c857524e_11aa_46e4_9e61_e1f6a82816fe" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Loppet_20k_skate_tracks_a937bebe_3043_4527_b8e9_292b21da3a91" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="0" id="Inset_Extent_315620181203214745058" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Tuesday_skate_Perimeter_is_a_lot_of_up_clockwise_tracks_5d3d75e2_2b1f_4386_bf75_ef1d3934de8d" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Goldeneye_and_a_bit_more_classic__tracks_d654b9f4_e0b1_489c_8cd9_a7c9e157bcb9" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="0" id="WaterPoly_201820181106201327005" enabled="0" tolerance="0" type="2"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Skate_without_dog_tracks_8ee98d72_d725_444f_ac39_224b80a37286" enabled="0" tolerance="12" type="1"/>
-      <layer-setting maxScale="0" minScale="0" units="1" id="Skate_32k_Loppet_with_Alex_Fynn_Nico_and_Sonny_tracks_32255526_10f2_4359_973f_ce4a250674be" enabled="0" tolerance="12" type="1"/>
       <layer-setting maxScale="0" minScale="0" units="1" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="Trails_201820181106201327000" enabled="0" tolerance="0" type="2"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="WaterPoly_201820181106201327005" enabled="0" tolerance="0" type="2"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="5m_Contour_Clip_Simplified20181127205312605" enabled="0" tolerance="0" type="2"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Skate_without_dog_tracks_8ee98d72_d725_444f_ac39_224b80a37286" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Moonlit_skate_rip_tracks_3a2fa531_088a_47eb_ab02_228900ddcdec" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="trails_d8a24813_c39c_4c84_98c3_67e527dd79f1" enabled="0" tolerance="12" type="0"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="Inset_Extent_315620181203214745058" enabled="0" tolerance="0" type="2"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" enabled="0" tolerance="12" type="0"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="Other_Roads_201820181106201326968" enabled="0" tolerance="0" type="2"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Last_U14_practice_dad_ski_skate_tracks_3f1f2629_eabf_480c_9390_da33cb40a3b7" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Skate_with_Hugo_and_andy_tracks_298785c9_e17c_45fd_8e1e_77de2c005d5a" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Skate_32k_Loppet_with_Alex_Fynn_Nico_and_Sonny_tracks_32255526_10f2_4359_973f_ce4a250674be" enabled="0" tolerance="12" type="1"/>
       <layer-setting maxScale="0" minScale="0" units="1" id="A_real_hustle_effort_tracks_a5c32077_4efa_4af5_9430_21bd1838d55a" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Solo_skate_tracks_7f950ddd_853b_47d4_8251_41e6fcef5c8c" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Loppet_20k_skate_tracks_a937bebe_3043_4527_b8e9_292b21da3a91" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Lots_of_hills_skate_tracks_c02c4e4c_705f_4311_8d3e_f7202413c117" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Tuesday_skate_Perimeter_is_a_lot_of_up_clockwise_tracks_5d3d75e2_2b1f_4386_bf75_ef1d3934de8d" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Backwards_Hustle_with_Pete_tracks_c857524e_11aa_46e4_9e61_e1f6a82816fe" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Hilltop_laps_skate_tracks_b901e4be_9e05_478f_bb74_a0c48f8ec795" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="LodgeArea_201820181106201326918" enabled="0" tolerance="0" type="2"/>
+      <layer-setting maxScale="0" minScale="0" units="1" id="Goldeneye_and_a_bit_more_classic__tracks_d654b9f4_e0b1_489c_8cd9_a7c9e157bcb9" enabled="0" tolerance="12" type="1"/>
+      <layer-setting maxScale="0" minScale="0" units="0" id="POI_2018_copy20181106204310841" enabled="0" tolerance="0" type="2"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -275,7 +275,7 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" name="gpx" checked="Qt::Checked">
+    <legendgroup open="true" name="gpx" checked="Qt::Checked">
       <legendgroup open="true" name="2024 Updates" checked="Qt::Checked">
         <legendlayer open="true" name="classic-bonus-view - gaia" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
           <filegroup open="true" hidden="false">
@@ -386,7 +386,7 @@
         <legendlayerfile isInOverview="0" visible="0" layerid="trails_d8a24813_c39c_4c84_98c3_67e527dd79f1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Trails" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
+    <legendlayer open="false" name="Trails (View)" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
         <legendlayerfile isInOverview="0" visible="1" layerid="Trails_201820181106201327000"/>
       </filegroup>
@@ -10210,7 +10210,7 @@ def my_form_open(dialog, layer, feature):
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Trails</layername>
+      <layername>Trails (View)</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
           <wkt>PROJCRS["NAD83(CSRS) / UTM zone 9N",BASEGEOGCRS["NAD83(CSRS)",DATUM["NAD83 Canadian Spatial Reference System",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4617]],CONVERSION["UTM zone 9N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",-129,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Engineering survey, topographic mapping."],AREA["Canada - between 132°W and 126°W, onshore and offshore south of 84°N - British Columbia, Northwest Territories, Yukon."],BBOX[46.52,-132,80.93,-126]],ID["EPSG",3156]]</wkt>
@@ -17210,7 +17210,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -18143,7 +18143,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -19435,7 +19435,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option/>
             </customproperties>
@@ -20781,7 +20781,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -21918,7 +21918,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -23042,7 +23042,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -24244,7 +24244,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -25451,7 +25451,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -26653,7 +26653,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -27855,7 +27855,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -29057,7 +29057,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -30259,7 +30259,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -31383,7 +31383,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -32507,7 +32507,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
@@ -33631,7 +33631,7 @@ def my_form_open(dialog, layer, feature):
               <Option/>
             </customproperties>
           </layer-tree-layer>
-          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
+          <layer-tree-layer expanded="1" legend_split_behavior="0" name="Trails (View)" providerKey="ogr" id="Trails_201820181106201327000" source="./main-data.gpkg|layername=trails" checked="Qt::Checked" legend_exp="" patch_size="0,0">
             <customproperties>
               <Option type="Map">
                 <Option value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" name="expandedLegendNodes" type="QString"/>
