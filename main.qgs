@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Thomas Christian" saveDateTime="2024-10-24T16:59:13" projectname="" saveUser="tom" version="3.28.2-Firenze">
+<qgis saveUserFull="Thomas Christian" saveDateTime="2024-10-24T17:02:38" projectname="" saveUser="tom" version="3.28.2-Firenze">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -16872,7 +16872,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem maxBarWidth="150" mapUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" numMapUnitsPerScaleBarUnit="1" outlineWidthM="0.3,mm" zValue="5" boxContentSpace="1" labelBarSpace="3" segmentMillimeters="15.6212" alignment="0" groupUuid="" numUnitsPerSegment="250" itemRotation="0" segmentSizeMode="0" position="78.2555,243.407,mm" visibility="1" templateUuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" labelVerticalPlacement="0" blendMode="0" frame="false" lineJoinStyle="miter" excludeFromExports="0" minBarWidth="50" referencePoint="0" style="Single Box" opacity="1" positionOnPage="78.2555,243.407,mm" outlineWidth="0.3" labelHorizontalPlacement="0" id="Main Scale Bar" numSegments="4" frameJoinStyle="miter" uuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" type="65646" numSegmentsLeft="0" height="2" unitType="meters" numSubdivisions="1" size="74.8308,12.6032,mm" lineCapStyle="square" positionLock="true" unitLabel="m" subdivisionsHeight="1.5" background="false">
+      <LayoutItem maxBarWidth="150" mapUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" numMapUnitsPerScaleBarUnit="1" outlineWidthM="0.3,mm" zValue="5" boxContentSpace="1" labelBarSpace="3" segmentMillimeters="14.5314" alignment="0" groupUuid="" numUnitsPerSegment="250" itemRotation="0" segmentSizeMode="0" position="78.2555,243.407,mm" visibility="1" templateUuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" labelVerticalPlacement="0" blendMode="0" frame="false" lineJoinStyle="miter" excludeFromExports="0" minBarWidth="50" referencePoint="0" style="Single Box" opacity="1" positionOnPage="78.2555,243.407,mm" outlineWidth="0.3" labelHorizontalPlacement="0" id="Main Scale Bar" numSegments="4" frameJoinStyle="miter" uuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" type="65646" numSegmentsLeft="0" height="2" unitType="meters" numSubdivisions="1" size="70.4715,12.6032,mm" lineCapStyle="square" positionLock="true" unitLabel="m" subdivisionsHeight="1.5" background="false">
         <FrameColor red="0" blue="0" green="0" alpha="255"/>
         <BackgroundColor red="255" blue="255" green="255" alpha="255"/>
         <LayoutObject>
@@ -17213,6 +17213,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer legend_split_behavior="0" legend_exp="" patch_size="0,0" id="Trails_201820181106201327000" expanded="1" name="Trails" checked="Qt::Checked" source="./main-data.gpkg|layername=trails" providerKey="ogr">
             <customproperties>
               <Option type="Map">
+                <Option type="QString" name="cached_name" value="Trails"/>
                 <Option type="QString" name="expandedLegendNodes" value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}"/>
               </Option>
             </customproperties>
@@ -17425,7 +17426,7 @@ def my_form_open(dialog, layer, feature):
             <Option/>
           </customproperties>
         </LayoutObject>
-        <Extent xmin="609885.53599647607188672" ymin="6064887.90899772383272648" ymax="6069349.50900227483361959" xmax="616795.13600352394860238"/>
+        <Extent xmin="609741.97818889399059117" ymin="6064712.98614721279591322" ymax="6069509.20615210477262735" xmax="617169.79819647036492825"/>
         <LayerSet/>
         <ComposerMapGrid gridFrameMargin="0" rotatedAnnotationsEnabled="0" annotationPrecision="3" gridFrameWidth="2" unit="0" leftFrameDivisions="0" minimumIntervalWidth="50" name="Grid 1" leftAnnotationDisplay="0" bottomAnnotationPosition="1" gridStyle="0" gridFrameSideFlags="15" rightFrameDivisions="0" rightAnnotationDirection="0" rotatedTicksMarginToCorner="0" intervalX="0" rotatedTicksEnabled="0" rotatedAnnotationsLengthMode="0" bottomAnnotationDisplay="0" topAnnotationPosition="1" gridFramePenThickness="0.5" topAnnotationDisplay="0" position="3" intervalY="0" annotationExpression="" gridFramePenColor="0,0,0,255" rotatedAnnotationsMinimumAngle="0" rotatedTicksMinimumAngle="0" frameFillColor1="255,255,255,255" frameFillColor2="0,0,0,255" offsetY="0" blendMode="0" crossLength="3" leftAnnotationDirection="0" show="0" offsetX="0" bottomFrameDivisions="0" rotatedTicksLengthMode="0" bottomAnnotationDirection="0" showAnnotation="0" rightAnnotationPosition="1" gridFrameStyle="0" topAnnotationDirection="0" topFrameDivisions="0" annotationFormat="0" uuid="{f63ade6e-afaf-43ca-b617-634bac07a5e1}" leftAnnotationPosition="1" maximumIntervalWidth="100" rightAnnotationDisplay="0" frameAnnotationDistance="1" rotatedAnnotationsMarginToCorner="0">
           <lineStyle>
