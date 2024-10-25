@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUserFull="Thomas Christian" saveDateTime="2024-10-24T18:10:43" projectname="" saveUser="tom" version="3.28.2-Firenze">
+<qgis saveUserFull="Thomas Christian" saveDateTime="2024-10-24T18:33:24" projectname="" saveUser="tom" version="3.28.2-Firenze">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -146,20 +146,20 @@
   </layer-tree-group>
   <snapping-settings minScale="0" mode="2" intersection-snapping="0" self-snapping="0" tolerance="6" enabled="1" type="3" scaleDependencyMode="0" unit="1" maxScale="0">
     <individual-layer-settings>
-      <layer-setting minScale="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
       <layer-setting minScale="0" id="POI_2018_copy20181106204310841" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
-      <layer-setting minScale="0" id="Inset_Extent_315620181203214745058" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
-      <layer-setting minScale="0" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" tolerance="12" enabled="0" type="1" maxScale="0" units="1"/>
-      <layer-setting minScale="0" id="Trails_201820181106201327000" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
-      <layer-setting minScale="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
-      <layer-setting minScale="0" id="Other_Roads_201820181106201326968" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
-      <layer-setting minScale="0" id="5m_Contour_Clip_Simplified20181127205312605" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
-      <layer-setting minScale="0" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
-      <layer-setting minScale="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
       <layer-setting minScale="0" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" tolerance="12" enabled="0" type="1" maxScale="0" units="1"/>
       <layer-setting minScale="0" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" tolerance="12" enabled="0" type="1" maxScale="0" units="1"/>
-      <layer-setting minScale="0" id="LodgeArea_201820181106201326918" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
+      <layer-setting minScale="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
+      <layer-setting minScale="0" id="Other_Roads_201820181106201326968" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
+      <layer-setting minScale="0" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
+      <layer-setting minScale="0" id="Trails_201820181106201327000" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
+      <layer-setting minScale="0" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" tolerance="12" enabled="0" type="1" maxScale="0" units="1"/>
+      <layer-setting minScale="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
+      <layer-setting minScale="0" id="Inset_Extent_315620181203214745058" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
       <layer-setting minScale="0" id="WaterPoly_201820181106201327005" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
+      <layer-setting minScale="0" id="5m_Contour_Clip_Simplified20181127205312605" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
+      <layer-setting minScale="0" id="LodgeArea_201820181106201326918" tolerance="0" enabled="0" type="2" maxScale="0" units="0"/>
+      <layer-setting minScale="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" tolerance="12" enabled="0" type="0" maxScale="0" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -4302,7 +4302,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial dimensions="2" miny="0" minx="0" maxz="0" crs="" maxy="0" minz="0" maxx="0"/>
+          <spatial dimensions="2" miny="0" minx="0" maxz="0" crs="EPSG:3716" maxy="0" minz="0" maxx="0"/>
           <temporal>
             <period>
               <start></start>
@@ -4313,7 +4313,7 @@ def my_form_open(dialog, layer, feature):
       </resourceMetadata>
       <provider encoding="UTF-8">ogr</provider>
       <vectorjoins>
-        <join joinFieldName="TRAIL_ID" hasCustomPrefix="1" dynamicForm="0" targetFieldName="TRAIL_ID" editable="0" upsertOnEdit="0" customPrefix="" joinLayerId="main_data_66561feb_96d7_4d39_b111_b7c1a60908e4" memoryCache="1" cascadedDelete="0">
+        <join joinFieldName="TRAIL_ID" hasCustomPrefix="1" dynamicForm="0" targetFieldName="TRAIL_ID" editable="0" upsertOnEdit="0" customPrefix="" joinLayerId="main_data_66561feb_96d7_4d39_b111_b7c1a60908e4" memoryCache="0" cascadedDelete="0">
           <joinFieldsSubset>
             <field name="TRAIL_NAME"/>
           </joinFieldsSubset>
@@ -4780,8 +4780,8 @@ def my_form_open(dialog, layer, feature):
         </symbols>
       </renderer-v2>
       <labeling type="rule-based">
-        <rules key="{0a35e30d-2204-49a7-9cd8-464037ba1cfa}">
-          <rule description="All Trails" key="{650054ef-8e86-4776-bcf7-3af6f6f869cc}">
+        <rules key="{b4614b6f-b8fd-491e-9379-d209152f7903}">
+          <rule description="All Trails" key="{c92dbfd8-5e88-4e75-a8c3-218e709cc0ab}">
             <settings calloutType="simple">
               <text-style fontLetterSpacing="0" textOrientation="horizontal" fieldName="with_variable('CLOSED_TEXT', case when coalesce(&quot;CLOSED&quot;, 0) = 1 then '|(CLOSED)' else '' end,&#xa;    case&#xd;&#xa;&#x9;    when regexp_match(coalesce(@layout_name, 'Print'), '^Digital$') > 0 then&#xd;&#xa;&#x9;&#x9;    if(round($length / 1000, 1) > 0.1, concat(&quot;TRAIL_NAME&quot;, '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT), null)&#xd;&#xa;&#x9;    else&#xd;&#xa;&#x9;&#x9;&#x9;case&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 0 then&#x9;-- no label&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;null&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 1 then&#x9;-- trail name&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 2 then&#x9;-- trail name, new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 3 then&#x9;-- trail name, (abbreviation), new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, ' (', regexp_replace(regexp_replace(&quot;TRAIL_NAME&quot;, '\\B[a-z]', ''), '\\s', ''), ')', '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 4 then&#x9;-- abbreviation, new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(regexp_replace(regexp_replace(&quot;TRAIL_NAME&quot;, '\\B[a-z]', ''), '\\s', ''), '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 5 then&#x9;-- distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 6 then&#x9;-- new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat('|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 7 then&#x9;-- trail name, distance [no new line]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, ' ', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 8 then&#x9;-- new line, trail name, new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat('|', &quot;TRAIL_NAME&quot;, '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;end&#xd;&#xa;    end&#xa;)" fontSizeMapUnitScale="3x:0,0,0,0,0,0" allowHtml="0" fontKerning="1" previewBkgrdColor="255,255,255,255" capitalization="0" useSubstitutions="0" fontFamily=".AppleSystemUIFont" fontUnderline="0" fontWeight="50" fontSize="7.75" multilineHeight="1" blendMode="0" isExpression="1" fontStrikeout="0" textOpacity="1" multilineHeightUnit="Percentage" fontItalic="0" forcedBold="0" forcedItalic="0" fontSizeUnit="Point" legendString="Aa" textColor="0,0,0,255" namedStyle="" fontWordSpacing="0">
                 <families/>
@@ -5206,21 +5206,21 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field configurationFlags="None" name="SEGMENT_NAME">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="SEGMENT_END_1">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
           </editWidget>
         </field>
         <field configurationFlags="None" name="SEGMENT_END_2">
-          <editWidget type="">
+          <editWidget type="TextEdit">
             <config>
               <Option/>
             </config>
@@ -5348,6 +5348,9 @@ def my_form_open(dialog, layer, feature):
         <field editable="1" name="LBL_SCHEME"/>
         <field editable="1" name="LEN"/>
         <field editable="1" name="LIGHTS"/>
+        <field editable="1" name="SEGMENT_END_1"/>
+        <field editable="1" name="SEGMENT_END_2"/>
+        <field editable="1" name="SEGMENT_NAME"/>
         <field editable="1" name="TRAIL_ID"/>
         <field editable="0" name="TRAIL_NAME"/>
         <field editable="0" name="Trail Names_TRAIL_NAME"/>
@@ -5364,6 +5367,9 @@ def my_form_open(dialog, layer, feature):
         <field labelOnTop="0" name="LBL_SCHEME"/>
         <field labelOnTop="0" name="LEN"/>
         <field labelOnTop="0" name="LIGHTS"/>
+        <field labelOnTop="0" name="SEGMENT_END_1"/>
+        <field labelOnTop="0" name="SEGMENT_END_2"/>
+        <field labelOnTop="0" name="SEGMENT_NAME"/>
         <field labelOnTop="0" name="TRAIL_ID"/>
         <field labelOnTop="0" name="TRAIL_NAME"/>
         <field labelOnTop="0" name="Trail Names_TRAIL_NAME"/>
@@ -5371,7 +5377,20 @@ def my_form_open(dialog, layer, feature):
         <field labelOnTop="0" name="fid"/>
         <field labelOnTop="0" name="trail_names_TRAIL_NAME"/>
       </labelOnTop>
-      <reuseLastValue/>
+      <reuseLastValue>
+        <field reuseLastValue="0" name="CLOSED"/>
+        <field reuseLastValue="0" name="DIFFICULTY"/>
+        <field reuseLastValue="0" name="DOG_FRIEND"/>
+        <field reuseLastValue="0" name="INSET_HINT"/>
+        <field reuseLastValue="0" name="LBL_SCHEME"/>
+        <field reuseLastValue="0" name="LIGHTS"/>
+        <field reuseLastValue="0" name="SEGMENT_END_1"/>
+        <field reuseLastValue="0" name="SEGMENT_END_2"/>
+        <field reuseLastValue="0" name="SEGMENT_NAME"/>
+        <field reuseLastValue="0" name="TRAIL_ID"/>
+        <field reuseLastValue="0" name="TRAIL_NAME"/>
+        <field reuseLastValue="0" name="fid"/>
+      </reuseLastValue>
       <dataDefinedFieldProperties/>
       <widgets>
         <widget name="DOG_FRIENDLY">
@@ -7798,7 +7817,7 @@ def my_form_open(dialog, layer, feature):
         <columns>
           <column hidden="0" type="field" name="fid" width="-1"/>
           <column hidden="0" type="field" name="TRAIL_ID" width="-1"/>
-          <column hidden="0" type="field" name="TRAIL_NAME" width="-1"/>
+          <column hidden="0" type="field" name="TRAIL_NAME" width="296"/>
           <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
