@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.28.2-Firenze" saveUser="tom" saveUserFull="Thomas Christian" saveDateTime="2024-10-30T21:07:21">
+<qgis projectname="" version="3.28.2-Firenze" saveUser="tom" saveUserFull="Thomas Christian" saveDateTime="2024-10-30T21:24:29">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -21,14 +21,19 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group name="gpx" checked="Qt::Checked" expanded="0" groupLayer="">
+    <layer-tree-group name="gpx" checked="Qt::Checked" expanded="1" groupLayer="">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-group name="2024 Updates" checked="Qt::Unchecked" expanded="0" groupLayer="">
+      <layer-tree-group name="2024 Updates" checked="Qt::Checked" expanded="1" groupLayer="">
         <customproperties>
           <Option/>
         </customproperties>
+        <layer-tree-layer name="Bonus VV.kml" checked="Qt::Unchecked" expanded="1" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" providerKey="ogr" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./gpx/2024 Updates/Bonus VV.kml|layername=Bonus VV.kml|geometrytype=LineString25D|uniqueGeometryType=yes">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
         <layer-tree-layer name="VV to new DTM turn.kml" checked="Qt::Unchecked" expanded="1" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" providerKey="ogr" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" source="./gpx/2024 Updates/VV to new DTM turn.kml|layername=VV to new DTM turn.kml|geometrytype=LineString25D|uniqueGeometryType=yes">
           <customproperties>
             <Option/>
@@ -148,25 +153,27 @@
       <item>trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98</item>
       <item>adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f</item>
       <item>VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64</item>
+      <item>Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings minScale="0" maxScale="0" intersection-snapping="0" scaleDependencyMode="0" tolerance="6" unit="1" enabled="1" self-snapping="0" mode="2" type="3">
     <individual-layer-settings>
-      <layer-setting minScale="0" maxScale="0" id="Trails_201820181106201327000" tolerance="0" enabled="0" type="2" units="0"/>
-      <layer-setting minScale="0" maxScale="0" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" tolerance="12" enabled="0" type="1" units="1"/>
-      <layer-setting minScale="0" maxScale="0" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" tolerance="12" enabled="0" type="1" units="1"/>
-      <layer-setting minScale="0" maxScale="0" id="WaterPoly_201820181106201327005" tolerance="0" enabled="0" type="2" units="0"/>
-      <layer-setting minScale="0" maxScale="0" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" tolerance="12" enabled="0" type="0" units="1"/>
-      <layer-setting minScale="0" maxScale="0" id="Inset_Extent_315620181203214745058" tolerance="0" enabled="0" type="2" units="0"/>
-      <layer-setting minScale="0" maxScale="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" tolerance="12" enabled="0" type="0" units="1"/>
-      <layer-setting minScale="0" maxScale="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" tolerance="12" enabled="0" type="0" units="1"/>
-      <layer-setting minScale="0" maxScale="0" id="POI_2018_copy20181106204310841" tolerance="0" enabled="0" type="2" units="0"/>
       <layer-setting minScale="0" maxScale="0" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" tolerance="12" enabled="0" type="0" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" tolerance="12" enabled="0" type="0" units="1"/>
       <layer-setting minScale="0" maxScale="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" tolerance="12" enabled="0" type="0" units="1"/>
-      <layer-setting minScale="0" maxScale="0" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" tolerance="12" enabled="0" type="1" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="WaterPoly_201820181106201327005" tolerance="0" enabled="0" type="2" units="0"/>
+      <layer-setting minScale="0" maxScale="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" tolerance="12" enabled="0" type="0" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="POI_2018_copy20181106204310841" tolerance="0" enabled="0" type="2" units="0"/>
+      <layer-setting minScale="0" maxScale="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" tolerance="12" enabled="0" type="0" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" tolerance="12" enabled="0" type="1" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" tolerance="12" enabled="0" type="1" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="Inset_Extent_315620181203214745058" tolerance="0" enabled="0" type="2" units="0"/>
       <layer-setting minScale="0" maxScale="0" id="Other_Roads_201820181106201326968" tolerance="0" enabled="0" type="2" units="0"/>
-      <layer-setting minScale="0" maxScale="0" id="LodgeArea_201820181106201326918" tolerance="0" enabled="0" type="2" units="0"/>
       <layer-setting minScale="0" maxScale="0" id="5m_Contour_Clip_Simplified20181127205312605" tolerance="0" enabled="0" type="2" units="0"/>
+      <layer-setting minScale="0" maxScale="0" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" tolerance="12" enabled="0" type="1" units="1"/>
+      <layer-setting minScale="0" maxScale="0" id="LodgeArea_201820181106201326918" tolerance="0" enabled="0" type="2" units="0"/>
+      <layer-setting minScale="0" maxScale="0" id="Trails_201820181106201327000" tolerance="0" enabled="0" type="2" units="0"/>
+      <layer-setting minScale="0" maxScale="0" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" tolerance="12" enabled="0" type="0" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -198,8 +205,13 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup open="false" name="gpx" checked="Qt::Checked">
-      <legendgroup open="false" name="2024 Updates" checked="Qt::Unchecked">
+    <legendgroup open="true" name="gpx" checked="Qt::Checked">
+      <legendgroup open="true" name="2024 Updates" checked="Qt::Checked">
+        <legendlayer open="true" name="Bonus VV.kml" checked="Qt::Unchecked" drawingOrder="-1" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile visible="0" isInOverview="0" layerid="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e"/>
+          </filegroup>
+        </legendlayer>
         <legendlayer open="true" name="VV to new DTM turn.kml" checked="Qt::Unchecked" drawingOrder="-1" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile visible="0" isInOverview="0" layerid="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64"/>
@@ -1144,6 +1156,440 @@ def my_form_open(dialog, layer, feature):
       <dataDefinedFieldProperties/>
       <widgets/>
       <previewExpression>COALESCE( "LAYER", '&lt;NULL>' )</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer legendPlaceholderImage="" hasScaleBasedVisibilityFlag="0" type="vector" minScale="100000000" wkbType="LineStringZ" labelsEnabled="0" geometry="Line" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" refreshOnNotifyMessage="" autoRefreshTime="0" symbologyReferenceScale="-1" simplifyAlgorithm="0" maxScale="0" readOnly="0" simplifyMaxScale="1" autoRefreshEnabled="0" simplifyLocal="1" simplifyDrawingHints="1" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-127.18794198024140485</xmin>
+        <ymin>54.75167608491379667</ymin>
+        <xmax>-127.18267858827630334</xmax>
+        <ymax>54.75642707816228949</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-127.18794198024140485</xmin>
+        <ymin>54.75167608491379667</ymin>
+        <xmax>-127.18267858827630334</xmax>
+        <ymax>54.75642707816228949</ymax>
+      </wgs84extent>
+      <id>Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e</id>
+      <datasource>./gpx/2024 Updates/Bonus VV.kml|layername=Bonus VV.kml|geometrytype=LineString25D|uniqueGeometryType=yes</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Bonus VV.kml</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startField="begin" startExpression="" limitMode="0" durationUnit="min" endField="end" enabled="0" fixedDuration="0" mode="2" accumulate="0" endExpression="" durationField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation extrusion="0" extrusionEnabled="0" symbology="Line" zscale="1" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" binding="Centroid" zoffset="0" clamping="Relative" type="IndividualFeatures">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol name="" clip_to_extent="1" is_animated="0" force_rhr="0" alpha="1" frame_rate="10" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="190,207,80,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.6" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol name="" clip_to_extent="1" is_animated="0" force_rhr="0" alpha="1" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="190,207,80,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="136,148,57,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.2" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol name="" clip_to_extent="1" is_animated="0" force_rhr="0" alpha="1" frame_rate="10" type="marker">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleMarker" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="angle" value="0" type="QString"/>
+                <Option name="cap_style" value="square" type="QString"/>
+                <Option name="color" value="190,207,80,255" type="QString"/>
+                <Option name="horizontal_anchor_point" value="1" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="name" value="diamond" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="136,148,57,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.2" type="QString"/>
+                <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="scale_method" value="diameter" type="QString"/>
+                <Option name="size" value="3" type="QString"/>
+                <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="size_unit" value="MM" type="QString"/>
+                <Option name="vertical_anchor_point" value="1" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 forceraster="0" enableorderby="0" referencescale="-1" symbollevels="0" type="embeddedSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" is_animated="0" force_rhr="0" alpha="1" frame_rate="10" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" class="SimpleLine" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="231,113,72,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.26" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="Name" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="description" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="timestamp" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="begin" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="end" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="altitudeMode" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tessellate" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="extrude" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="visibility" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="drawOrder" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="icon" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="Name"/>
+        <alias name="" index="1" field="description"/>
+        <alias name="" index="2" field="timestamp"/>
+        <alias name="" index="3" field="begin"/>
+        <alias name="" index="4" field="end"/>
+        <alias name="" index="5" field="altitudeMode"/>
+        <alias name="" index="6" field="tessellate"/>
+        <alias name="" index="7" field="extrude"/>
+        <alias name="" index="8" field="visibility"/>
+        <alias name="" index="9" field="drawOrder"/>
+        <alias name="" index="10" field="icon"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="Name"/>
+        <default expression="" applyOnUpdate="0" field="description"/>
+        <default expression="" applyOnUpdate="0" field="timestamp"/>
+        <default expression="" applyOnUpdate="0" field="begin"/>
+        <default expression="" applyOnUpdate="0" field="end"/>
+        <default expression="" applyOnUpdate="0" field="altitudeMode"/>
+        <default expression="" applyOnUpdate="0" field="tessellate"/>
+        <default expression="" applyOnUpdate="0" field="extrude"/>
+        <default expression="" applyOnUpdate="0" field="visibility"/>
+        <default expression="" applyOnUpdate="0" field="drawOrder"/>
+        <default expression="" applyOnUpdate="0" field="icon"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" unique_strength="0" field="Name" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="description" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="timestamp" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="begin" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="end" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="altitudeMode" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="tessellate" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="extrude" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="visibility" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="drawOrder" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="icon" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="Name" exp="" desc=""/>
+        <constraint field="description" exp="" desc=""/>
+        <constraint field="timestamp" exp="" desc=""/>
+        <constraint field="begin" exp="" desc=""/>
+        <constraint field="end" exp="" desc=""/>
+        <constraint field="altitudeMode" exp="" desc=""/>
+        <constraint field="tessellate" exp="" desc=""/>
+        <constraint field="extrude" exp="" desc=""/>
+        <constraint field="visibility" exp="" desc=""/>
+        <constraint field="drawOrder" exp="" desc=""/>
+        <constraint field="icon" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
     <maplayer minScale="1e+08" maxScale="0" autoRefreshTime="0" legendPlaceholderImage="" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories">
@@ -4255,14 +4701,14 @@ def my_form_open(dialog, layer, feature):
       <extent>
         <xmin>610963.5625</xmin>
         <ymin>6064924</ymin>
-        <xmax>617128.4375</xmax>
+        <xmax>616961.8125</xmax>
         <ymax>6069295</ymax>
       </extent>
       <wgs84extent>
         <xmin>-127.27725820667434675</xmin>
-        <ymin>54.71795555614289697</ymin>
-        <xmax>-127.17983907833836099</xmax>
-        <ymax>54.75861650498487165</ymax>
+        <ymin>54.71799431693389693</ymin>
+        <xmax>-127.18242696001458114</xmax>
+        <ymax>54.75861650498497823</ymax>
       </wgs84extent>
       <id>Trails_201820181106201327000</id>
       <datasource>./main-data.gpkg|layername=trails</datasource>
@@ -10029,14 +10475,14 @@ def my_form_open(dialog, layer, feature):
       <extent>
         <xmin>610963.5625</xmin>
         <ymin>6064924</ymin>
-        <xmax>617128.4375</xmax>
+        <xmax>616961.8125</xmax>
         <ymax>6069295</ymax>
       </extent>
       <wgs84extent>
         <xmin>-127.27725820667434675</xmin>
-        <ymin>54.71795555614289697</ymin>
-        <xmax>-127.17983907833836099</xmax>
-        <ymax>54.75861650498487165</ymax>
+        <ymin>54.71799431693389693</ymin>
+        <xmax>-127.18242696001458114</xmax>
+        <ymax>54.75861650498497823</ymax>
       </wgs84extent>
       <id>trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98</id>
       <datasource>./main-data.gpkg|layername=trails</datasource>
@@ -10930,6 +11376,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98"/>
     <layer id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f"/>
     <layer id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64"/>
+    <layer id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e"/>
   </layerorder>
   <properties>
     <DefaultStyles/>
@@ -11955,7 +12402,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem style="Single Box" minBarWidth="50" numSegmentsLeft="0" numUnitsPerSegment="250" height="2" lineJoinStyle="miter" labelHorizontalPlacement="0" numSubdivisions="1" unitLabel="m" itemRotation="0" id="Main Scale Bar" subdivisionsHeight="1.5" numMapUnitsPerScaleBarUnit="1" groupUuid="" templateUuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" blendMode="0" positionOnPage="78.2555,243.407,mm" positionLock="true" unitType="meters" mapUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" outlineWidthM="0.3,mm" segmentSizeMode="0" size="70.4715,12.6032,mm" type="65646" outlineWidth="0.3" referencePoint="0" visibility="1" maxBarWidth="150" excludeFromExports="0" alignment="0" frameJoinStyle="miter" position="78.2555,243.407,mm" zValue="5" uuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" background="false" segmentMillimeters="14.5314" boxContentSpace="1" numSegments="4" frame="false" lineCapStyle="square" labelBarSpace="3" labelVerticalPlacement="0" opacity="1">
+      <LayoutItem style="Single Box" minBarWidth="50" numSegmentsLeft="0" numUnitsPerSegment="250" height="2" lineJoinStyle="miter" labelHorizontalPlacement="0" numSubdivisions="1" unitLabel="m" itemRotation="0" id="Main Scale Bar" subdivisionsHeight="1.5" numMapUnitsPerScaleBarUnit="1" groupUuid="" templateUuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" blendMode="0" positionOnPage="78.2555,243.407,mm" positionLock="true" unitType="meters" mapUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" outlineWidthM="0.3,mm" segmentSizeMode="0" size="72.2117,12.6032,mm" type="65646" outlineWidth="0.3" referencePoint="0" visibility="1" maxBarWidth="150" excludeFromExports="0" alignment="0" frameJoinStyle="miter" position="78.2555,243.407,mm" zValue="5" uuid="{30e542f1-47fe-4654-919e-076baa36ebc1}" background="false" segmentMillimeters="14.9664" boxContentSpace="1" numSegments="4" frame="false" lineCapStyle="square" labelBarSpace="3" labelVerticalPlacement="0" opacity="1">
         <FrameColor green="0" blue="0" alpha="255" red="0"/>
         <BackgroundColor green="255" blue="255" alpha="255" red="255"/>
         <LayoutObject>
@@ -12296,6 +12743,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer name="Trails" checked="Qt::Checked" expanded="1" id="Trails_201820181106201327000" providerKey="ogr" legend_exp="" patch_size="0,0" legend_split_behavior="0" source="./main-data.gpkg|layername=trails">
             <customproperties>
               <Option type="Map">
+                <Option name="cached_name" value="Trails" type="QString"/>
                 <Option name="expandedLegendNodes" value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}" type="QString"/>
               </Option>
             </customproperties>
@@ -12493,7 +12941,7 @@ def my_form_open(dialog, layer, feature):
         </atlasClippingSettings>
         <itemClippingSettings clippingType="0" enabled="0" forceLabelsInside="0" clipSource=""/>
       </LayoutItem>
-      <LayoutItem groupUuid="" id="Main Map" position="0,0,mm" keepLayerSet="false" followPresetName="" type="65639" visibility="1" followPreset="false" zValue="1" frameJoinStyle="miter" mapRotation="0" labelMargin="0,mm" excludeFromExports="0" blendMode="0" frame="true" referencePoint="0" isTemporal="0" uuid="{f14591f3-4239-4fe7-a150-c560be19875c}" positionOnPage="0,0,mm" size="431.85,278.85,mm" itemRotation="0" templateUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" mapFlags="0" positionLock="true" outlineWidthM="0.3,mm" opacity="1" drawCanvasItems="true" background="true">
+      <LayoutItem groupUuid="" id="Main Map" position="0,0,mm" keepLayerSet="false" followPresetName="" type="65639" visibility="1" followPreset="false" zValue="1" frameJoinStyle="miter" mapRotation="0" labelMargin="0,mm" excludeFromExports="0" blendMode="0" frame="true" referencePoint="0" isTemporal="0" uuid="{f14591f3-4239-4fe7-a150-c560be19875c}" positionOnPage="0,0,mm" size="431.85,278.85,mm" itemRotation="0" templateUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" mapFlags="0" positionLock="false" outlineWidthM="0.3,mm" opacity="1" drawCanvasItems="true" background="true">
         <FrameColor green="0" blue="0" alpha="255" red="0"/>
         <BackgroundColor green="255" blue="255" alpha="255" red="255"/>
         <LayoutObject>
@@ -12508,7 +12956,7 @@ def my_form_open(dialog, layer, feature):
             <Option/>
           </customproperties>
         </LayoutObject>
-        <Extent xmin="609741.97818889399059117" ymax="6069509.20615210477262735" xmax="617169.79819647036492825" ymin="6064712.98614721279591322"/>
+        <Extent xmin="609797.14919705328065902" ymax="6069454.53809437528252602" xmax="617009.04420440935064107" ymin="6064797.74308962561190128"/>
         <LayerSet/>
         <ComposerMapGrid rightAnnotationDisplay="0" intervalX="0" rotatedTicksEnabled="0" rightAnnotationDirection="0" unit="0" gridFrameMargin="0" topAnnotationDirection="0" minimumIntervalWidth="50" gridFramePenColor="0,0,0,255" annotationPrecision="3" frameFillColor1="255,255,255,255" leftAnnotationDirection="0" crossLength="3" rotatedAnnotationsMarginToCorner="0" rotatedAnnotationsLengthMode="0" topFrameDivisions="0" rotatedTicksMinimumAngle="0" rotatedTicksMarginToCorner="0" topAnnotationPosition="1" frameAnnotationDistance="1" leftAnnotationPosition="1" intervalY="0" gridStyle="0" bottomAnnotationDisplay="0" bottomFrameDivisions="0" blendMode="0" frameFillColor2="0,0,0,255" leftAnnotationDisplay="0" bottomAnnotationPosition="1" show="0" gridFramePenThickness="0.5" gridFrameStyle="0" showAnnotation="0" gridFrameSideFlags="15" rotatedAnnotationsEnabled="0" topAnnotationDisplay="0" rotatedAnnotationsMinimumAngle="0" rightAnnotationPosition="1" leftFrameDivisions="0" bottomAnnotationDirection="0" uuid="{f63ade6e-afaf-43ca-b617-634bac07a5e1}" position="3" offsetX="0" rightFrameDivisions="0" annotationFormat="0" annotationExpression="" rotatedTicksLengthMode="0" offsetY="0" maximumIntervalWidth="100" name="Grid 1" gridFrameWidth="2">
           <lineStyle>
