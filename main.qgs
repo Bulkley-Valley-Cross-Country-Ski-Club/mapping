@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="tom" saveUserFull="Thomas Christian" version="3.34.12-Prizren" saveDateTime="2024-10-31T21:18:48" projectname="">
+<qgis saveUser="tom" saveUserFull="Thomas Christian" version="3.34.12-Prizren" saveDateTime="2024-10-31T21:21:27" projectname="">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -33551,7 +33551,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayer="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" destinationLayerName="Trails Editable" destinationLayerSource="/Users/tom/source/bvnordic/mapping/main-data.gpkg|layername=trails" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayer="main_data_66561feb_96d7_4d39_b111_b7c1a60908e4" destinationLayerName="Trail Names" destinationLayerSource="/Users/tom/source/bvnordic/mapping/main-data.gpkg|layername=trail_names" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
