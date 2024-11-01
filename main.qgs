@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="tom" saveUserFull="Thomas Christian" version="3.34.12-Prizren" saveDateTime="2024-11-01T06:03:23" projectname="">
+<qgis saveUser="tom" saveUserFull="Thomas Christian" version="3.34.12-Prizren" saveDateTime="2024-11-01T06:07:26" projectname="">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -171,24 +171,24 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" mode="2" tolerance="6" scaleDependencyMode="0" type="3" maxScale="0" minScale="0" unit="1" self-snapping="0" enabled="1">
     <individual-layer-settings>
-      <layer-setting tolerance="12" type="0" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="LodgeArea_201820181106201326918" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="0" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="Other_Roads_201820181106201326968" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="0" type="2" id="Trails_201820181106201327000" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="1" id="poi_b5008d4e_d780_4454_9979_a91bf75ab10d" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="WaterPoly_201820181106201327005" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" maxScale="0" minScale="0" enabled="0" units="1"/>
       <layer-setting tolerance="12" type="0" id="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa" maxScale="0" minScale="0" enabled="0" units="1"/>
       <layer-setting tolerance="0" type="2" id="5m_Contour_Clip_Simplified20181127205312605" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="Other_Roads_201820181106201326968" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="0" type="2" id="WaterPoly_201820181106201327005" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="0" type="2" id="Inset_Extent_315620181203214745058" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="0" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" maxScale="0" minScale="0" enabled="0" units="1"/>
       <layer-setting tolerance="12" type="0" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="LodgeArea_201820181106201326918" maxScale="0" minScale="0" enabled="0" units="0"/>
       <layer-setting tolerance="0" type="2" id="POI_2018_copy20181106204310841" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="Inset_Extent_315620181203214745058" maxScale="0" minScale="0" enabled="0" units="0"/>
       <layer-setting tolerance="12" type="1" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="1" id="poi_b5008d4e_d780_4454_9979_a91bf75ab10d" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="Trails_201820181106201327000" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="0" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" maxScale="0" minScale="0" enabled="0" units="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -5346,7 +5346,7 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal startExpression="" fixedDuration="0" mode="0" accumulate="0" durationField="" durationUnit="min" endExpression="" startField="" enabled="0" limitMode="0" endField="">
+      <temporal startExpression="" fixedDuration="0" mode="0" accumulate="0" durationField="fid" durationUnit="min" endExpression="" startField="" enabled="0" limitMode="0" endField="">
         <fixedRange>
           <start></start>
           <end></end>
@@ -5662,7 +5662,13 @@ def my_form_open(dialog, layer, feature):
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
-                  <Option name="properties"/>
+                  <Option name="properties" type="Map">
+                    <Option name="outlineStyle" type="Map">
+                      <Option name="active" type="bool" value="true"/>
+                      <Option name="expression" type="QString" value="CASE&#xa;  WHEN coalesce(&quot;CLOSED&quot;, 0) = 1 THEN 'dot'&#xa;  WHEN coalesce(&quot;DOTTED&quot;, 0) = 1 THEN 'dot'&#xa;  ELSE 'solid'&#xa;END"/>
+                      <Option name="type" type="int" value="3"/>
+                    </Option>
+                  </Option>
                   <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
@@ -5709,7 +5715,13 @@ def my_form_open(dialog, layer, feature):
               <data_defined_properties>
                 <Option type="Map">
                   <Option name="name" type="QString" value=""/>
-                  <Option name="properties"/>
+                  <Option name="properties" type="Map">
+                    <Option name="outlineStyle" type="Map">
+                      <Option name="active" type="bool" value="true"/>
+                      <Option name="expression" type="QString" value="CASE&#xa;  WHEN coalesce(&quot;CLOSED&quot;, 0) = 1 THEN 'dot'&#xa;  WHEN coalesce(&quot;DOTTED&quot;, 0) = 1 THEN 'dot'&#xa;  ELSE 'solid'&#xa;END"/>
+                      <Option name="type" type="int" value="3"/>
+                    </Option>
+                  </Option>
                   <Option name="type" type="QString" value="collection"/>
                 </Option>
               </data_defined_properties>
@@ -5794,10 +5806,59 @@ def my_form_open(dialog, layer, feature):
       </renderer-v2>
       <selection mode="Default">
         <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol name="" force_rhr="0" type="line" is_animated="0" frame_rate="10" alpha="1" clip_to_extent="1">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""/>
+                <Option name="properties"/>
+                <Option name="type" type="QString" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer pass="0" id="{a42dda3d-39d1-416d-9f44-019b0c6e6a72}" class="SimpleLine" enabled="1" locked="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" type="QString" value="0"/>
+                <Option name="capstyle" type="QString" value="square"/>
+                <Option name="customdash" type="QString" value="5;2"/>
+                <Option name="customdash_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="customdash_unit" type="QString" value="MM"/>
+                <Option name="dash_pattern_offset" type="QString" value="0"/>
+                <Option name="dash_pattern_offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
+                <Option name="draw_inside_polygon" type="QString" value="0"/>
+                <Option name="joinstyle" type="QString" value="bevel"/>
+                <Option name="line_color" type="QString" value="35,35,35,255"/>
+                <Option name="line_style" type="QString" value="solid"/>
+                <Option name="line_width" type="QString" value="0.26"/>
+                <Option name="line_width_unit" type="QString" value="MM"/>
+                <Option name="offset" type="QString" value="0"/>
+                <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="offset_unit" type="QString" value="MM"/>
+                <Option name="ring_filter" type="QString" value="0"/>
+                <Option name="trim_distance_end" type="QString" value="0"/>
+                <Option name="trim_distance_end_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_end_unit" type="QString" value="MM"/>
+                <Option name="trim_distance_start" type="QString" value="0"/>
+                <Option name="trim_distance_start_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+                <Option name="trim_distance_start_unit" type="QString" value="MM"/>
+                <Option name="tweak_dash_pattern_on_corners" type="QString" value="0"/>
+                <Option name="use_custom_dash" type="QString" value="0"/>
+                <Option name="width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
       </selection>
       <labeling type="rule-based">
-        <rules key="{e38ad95f-ac1d-4fed-8ad4-d641d46a15e8}">
-          <rule description="All Trails" key="{e6f4e99a-e084-4713-9342-2605437ec1ed}">
+        <rules key="{0676cd02-531c-455d-b7b8-753aeb8cafe6}">
+          <rule description="All Trails" key="{4cd2cd47-a70a-4cce-86f7-41edfd08a213}">
             <settings calloutType="simple">
               <text-style fontSize="7.75" blendMode="0" isExpression="1" namedStyle="" fontWeight="50" textColor="0,0,0,255" fontKerning="1" capitalization="0" forcedItalic="0" fontFamily=".AppleSystemUIFont" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontUnderline="0" textOpacity="1" previewBkgrdColor="255,255,255,255" fontLetterSpacing="0" allowHtml="0" useSubstitutions="0" forcedBold="0" multilineHeightUnit="Percentage" fontWordSpacing="0" textOrientation="horizontal" legendString="Aa" multilineHeight="1" fontStrikeout="0" fontItalic="0" fieldName="with_variable('CLOSED_TEXT', case when coalesce(&quot;CLOSED&quot;, 0) = 1 then '|(CLOSED)' else '' end,&#xa;    case&#xd;&#xa;&#x9;    when regexp_match(coalesce(@layout_name, 'Print'), '^Digital$') > 0 then&#xd;&#xa;&#x9;&#x9;    if(round($length / 1000, 1) > 0.1, concat(&quot;TRAIL_NAME&quot;, '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT), null)&#xd;&#xa;&#x9;    else&#xd;&#xa;&#x9;&#x9;&#x9;case&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 0 then&#x9;-- no label&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;null&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 1 then&#x9;-- trail name&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 2 then&#x9;-- trail name, new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 3 then&#x9;-- trail name, (abbreviation), new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, ' (', regexp_replace(regexp_replace(&quot;TRAIL_NAME&quot;, '\\B[a-z]', ''), '\\s', ''), ')', '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 4 then&#x9;-- abbreviation, new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(regexp_replace(regexp_replace(&quot;TRAIL_NAME&quot;, '\\B[a-z]', ''), '\\s', ''), '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 5 then&#x9;-- distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 6 then&#x9;-- new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat('|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 7 then&#x9;-- trail name, distance [no new line]&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat(&quot;TRAIL_NAME&quot;, ' ', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;when &quot;LBL_SCHEME&quot; = 8 then&#x9;-- new line, trail name, new line, distance&#xd;&#xa;&#x9;&#x9;&#x9;&#x9;&#x9;concat('|', &quot;TRAIL_NAME&quot;, '|', max(round($length / 1000, 1), 0.1), 'km', @CLOSED_TEXT)&#xd;&#xa;&#x9;&#x9;&#x9;end&#xd;&#xa;    end&#xa;)">
                 <families/>
@@ -6087,8 +6148,8 @@ def my_form_open(dialog, layer, feature):
           <Option name="labeling/xOffset" type="QString" value="0"/>
           <Option name="labeling/yOffset" type="QString" value="0"/>
           <Option name="labeling/zIndex" type="QString" value="0"/>
-          <Option name="variableNames" type="invalid"/>
-          <Option name="variableValues" type="invalid"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -6243,7 +6304,7 @@ def my_form_open(dialog, layer, feature):
           </editWidget>
         </field>
         <field name="DOTTED" configurationFlags="NoFlag">
-          <editWidget type="">
+          <editWidget type="Range">
             <config>
               <Option/>
             </config>
@@ -6350,6 +6411,7 @@ def my_form_open(dialog, layer, feature):
           <column name="CLOSED" type="field" width="-1" hidden="0"/>
           <column name="SEGMENT_NAME" type="field" width="170" hidden="0"/>
           <column name="SEGMENT_END_1" type="field" width="-1" hidden="0"/>
+          <column name="DOTTED" type="field" width="-1" hidden="0"/>
           <column name="SEGMENT_END_2" type="field" width="-1" hidden="0"/>
         </columns>
       </attributetableconfig>
@@ -6385,6 +6447,7 @@ def my_form_open(dialog, layer, feature):
         <field name="CLOSED" editable="1"/>
         <field name="DIFFICULTY" editable="1"/>
         <field name="DOG_FRIEND" editable="1"/>
+        <field name="DOTTED" editable="1"/>
         <field name="INSET_HINT" editable="1"/>
         <field name="LBL_PRIM" editable="1"/>
         <field name="LBL_SCHEME" editable="1"/>
@@ -6404,6 +6467,7 @@ def my_form_open(dialog, layer, feature):
         <field name="CLOSED" labelOnTop="0"/>
         <field name="DIFFICULTY" labelOnTop="0"/>
         <field name="DOG_FRIEND" labelOnTop="0"/>
+        <field name="DOTTED" labelOnTop="0"/>
         <field name="INSET_HINT" labelOnTop="0"/>
         <field name="LBL_PRIM" labelOnTop="0"/>
         <field name="LBL_SCHEME" labelOnTop="0"/>
@@ -6423,6 +6487,7 @@ def my_form_open(dialog, layer, feature):
         <field name="CLOSED" reuseLastValue="0"/>
         <field name="DIFFICULTY" reuseLastValue="0"/>
         <field name="DOG_FRIEND" reuseLastValue="0"/>
+        <field name="DOTTED" reuseLastValue="0"/>
         <field name="INSET_HINT" reuseLastValue="0"/>
         <field name="LBL_SCHEME" reuseLastValue="0"/>
         <field name="LIGHTS" reuseLastValue="0"/>
@@ -33935,7 +34000,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayer="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" destinationLayerName="Trails Editable" destinationLayerSource="/Users/tom/source/bvnordic/mapping/main-data.gpkg|layername=trails" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayer="Trails_201820181106201327000" destinationLayerName="Trails" destinationLayerSource="/Users/tom/source/bvnordic/mapping/main-data.gpkg|layername=trails" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
