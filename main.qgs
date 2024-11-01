@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="tom" saveUserFull="Thomas Christian" version="3.34.12-Prizren" saveDateTime="2024-10-31T21:25:13" projectname="">
+<qgis saveUser="tom" saveUserFull="Thomas Christian" version="3.34.12-Prizren" saveDateTime="2024-10-31T21:31:24" projectname="">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -26,7 +26,7 @@
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-group name="2024 Updates" expanded="1" groupLayer="" checked="Qt::Checked">
+      <layer-tree-group name="2024 Updates" expanded="1" groupLayer="" checked="Qt::Unchecked">
         <customproperties>
           <Option/>
         </customproperties>
@@ -62,7 +62,7 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group name="Special Events" expanded="0" groupLayer="" checked="Qt::Unchecked">
+    <layer-tree-group name="Special Events" expanded="0" groupLayer="" checked="Qt::Checked">
       <customproperties>
         <Option/>
       </customproperties>
@@ -171,24 +171,24 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" mode="2" tolerance="6" scaleDependencyMode="0" type="3" maxScale="0" minScale="0" unit="1" self-snapping="0" enabled="1">
     <individual-layer-settings>
-      <layer-setting tolerance="12" type="1" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="5m_Contour_Clip_Simplified20181127205312605" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="LodgeArea_201820181106201326918" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="0" type="2" id="Inset_Extent_315620181203214745058" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="0" id="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="POI_2018_copy20181106204310841" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="1" id="poi_b5008d4e_d780_4454_9979_a91bf75ab10d" maxScale="0" minScale="0" enabled="0" units="1"/>
       <layer-setting tolerance="12" type="0" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="0" id="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="0" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="POI_2018_copy20181106204310841" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="0" type="2" id="LodgeArea_201820181106201326918" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="0" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="0" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="Inset_Extent_315620181203214745058" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="1" id="poi_b5008d4e_d780_4454_9979_a91bf75ab10d" maxScale="0" minScale="0" enabled="0" units="1"/>
       <layer-setting tolerance="0" type="2" id="Other_Roads_201820181106201326968" maxScale="0" minScale="0" enabled="0" units="0"/>
       <layer-setting tolerance="12" type="0" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="0" type="2" id="Trails_201820181106201327000" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="0" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" maxScale="0" minScale="0" enabled="0" units="1"/>
-      <layer-setting tolerance="12" type="0" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="12" type="1" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" maxScale="0" minScale="0" enabled="0" units="1"/>
       <layer-setting tolerance="0" type="2" id="WaterPoly_201820181106201327005" maxScale="0" minScale="0" enabled="0" units="0"/>
-      <layer-setting tolerance="12" type="0" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="Trails_201820181106201327000" maxScale="0" minScale="0" enabled="0" units="0"/>
+      <layer-setting tolerance="12" type="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" maxScale="0" minScale="0" enabled="0" units="1"/>
+      <layer-setting tolerance="0" type="2" id="5m_Contour_Clip_Simplified20181127205312605" maxScale="0" minScale="0" enabled="0" units="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -221,7 +221,7 @@
   <projectModels/>
   <legend updateDrawingOrder="true">
     <legendgroup name="gpx" open="true" checked="Qt::Checked">
-      <legendgroup name="2024 Updates" open="true" checked="Qt::Checked">
+      <legendgroup name="2024 Updates" open="true" checked="Qt::Unchecked">
         <legendlayer name="Adventure Trail as planned.kml" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Unchecked">
           <filegroup open="true" hidden="false">
             <legendlayerfile isInOverview="0" visible="0" layerid="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa"/>
@@ -254,7 +254,7 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup name="Special Events" open="false" checked="Qt::Unchecked">
+    <legendgroup name="Special Events" open="false" checked="Qt::Checked">
       <legendlayer name="Early Season" drawingOrder="-1" open="true" showFeatureCount="0" checked="Qt::Unchecked">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" visible="0" layerid="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207"/>
@@ -400,18 +400,6 @@
   </main-annotation-layer>
   <projectlayers>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiLineString" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>610961.4375</xmin>
-        <ymin>6064654.5</ymin>
-        <xmax>616922.25</xmax>
-        <ymax>6069569</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.27739384947403778</xmin>
-        <ymin>54.7155827739257532</ymin>
-        <xmax>-127.1829311505992024</xmax>
-        <ymax>54.76107823578541911</ymax>
-      </wgs84extent>
       <id>5m_Contour_Clip_Simplified20181127205312605</id>
       <datasource>./main-data.gpkg|layername=5m_contours</datasource>
       <keywordList>
@@ -1202,18 +1190,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="LineStringZ" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>-127.21813631577910542</xmin>
-        <ymin>54.73108735573219263</ymin>
-        <xmax>-127.21097899842060031</xmax>
-        <ymax>54.73420010812508707</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.21813631577910542</xmin>
-        <ymin>54.73108735573219263</ymin>
-        <xmax>-127.21097899842060031</xmax>
-        <ymax>54.73420010812508707</ymax>
-      </wgs84extent>
       <id>Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa</id>
       <datasource>./gpx/2024 Updates/Adventure Trail as planned.kml|layername=Adventure Trail as planned.kml|geometrytype=LineString25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -1653,18 +1629,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="LineStringZ" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>-127.18794198024140485</xmin>
-        <ymin>54.75167608491379667</ymin>
-        <xmax>-127.18267858827630334</xmax>
-        <ymax>54.75642707816228949</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.18794198024140485</xmin>
-        <ymin>54.75167608491379667</ymin>
-        <xmax>-127.18267858827630334</xmax>
-        <ymax>54.75642707816228949</ymax>
-      </wgs84extent>
       <id>Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e</id>
       <datasource>./gpx/2024 Updates/Bonus VV.kml|layername=Bonus VV.kml|geometrytype=LineString25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -2308,18 +2272,6 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Polygon" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiPolygon" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>613871</xmin>
-        <ymin>6066041</ymin>
-        <xmax>615024.75</xmax>
-        <ymax>6067298</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.23170612725674289</xmin>
-        <ymin>54.72847429017548393</ymin>
-        <xmax>-127.21330237726719758</xmax>
-        <ymax>54.74002787118437396</ymax>
-      </wgs84extent>
       <id>Inset_Extent_315620181203214745058</id>
       <datasource>./main-data.gpkg|layername=inset_extent</datasource>
       <keywordList>
@@ -2726,18 +2678,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Polygon" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiPolygon" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>614459.5625</xmin>
-        <ymin>6066421</ymin>
-        <xmax>614656.8125</xmax>
-        <ymax>6066511.5</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.22242182288489687</xmin>
-        <ymin>54.73197164449599939</ymin>
-        <xmax>-127.21932448089378909</xmax>
-        <ymax>54.73282949331992597</ymax>
-      </wgs84extent>
       <id>LodgeArea_201820181106201326918</id>
       <datasource>./main-data.gpkg|layername=lodge_area</datasource>
       <keywordList>
@@ -3144,18 +3084,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiLineString" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>610738.75</xmin>
-        <ymin>6065774</ymin>
-        <xmax>616888.3125</xmax>
-        <ymax>6069478</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.28042347304320003</xmin>
-        <ymin>54.72564637297456613</ymin>
-        <xmax>-127.18349488400210134</xmax>
-        <ymax>54.76030994707790001</ymax>
-      </wgs84extent>
       <id>Other_Roads_201820181106201326968</id>
       <datasource>./main-data.gpkg|layername=other_roads</datasource>
       <keywordList>
@@ -3699,18 +3627,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="0" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Point" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="Point" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>611690.25</xmin>
-        <ymin>6065174.5</ymin>
-        <xmax>616607.0625</xmax>
-        <ymax>6069295</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.26588582446314035</xmin>
-        <ymin>54.72032673516496004</ymin>
-        <xmax>-127.18793666417771249</xmax>
-        <ymax>54.75845547753871756</ymax>
-      </wgs84extent>
       <id>POI_2018_copy20181106204310841</id>
       <datasource>./main-data.gpkg|layername=poi</datasource>
       <keywordList>
@@ -5247,18 +5163,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1">Trail_name</mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiLineString" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>610963.5625</xmin>
-        <ymin>6064924</ymin>
-        <xmax>616961.8125</xmax>
-        <ymax>6069295</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.27725820667434675</xmin>
-        <ymin>54.71799431693389693</ymin>
-        <xmax>-127.18242696001458114</xmax>
-        <ymax>54.75861650498497823</ymax>
-      </wgs84extent>
       <id>Trails_201820181106201327000</id>
       <datasource>./main-data.gpkg|layername=trails</datasource>
       <keywordList>
@@ -6458,18 +6362,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="LineStringZ" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>-127.1970910192339943</xmin>
-        <ymin>54.75362759054110029</ymin>
-        <xmax>-127.18794155593789696</xmax>
-        <ymax>54.75739718086560259</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.1970910192339943</xmin>
-        <ymin>54.75362759054110029</ymin>
-        <xmax>-127.18794155593789696</xmax>
-        <ymax>54.75739718086560259</ymax>
-      </wgs84extent>
       <id>VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64</id>
       <datasource>./gpx/2024 Updates/VV to new DTM turn.kml|layername=VV to new DTM turn.kml|geometrytype=LineString25D|uniqueGeometryType=yes</datasource>
       <keywordList>
@@ -7057,18 +6949,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Polygon" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiPolygon" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>614970.875</xmin>
-        <ymin>6067014</ymin>
-        <xmax>615134.0625</xmax>
-        <ymax>6067303</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.21425101539061586</xmin>
-        <ymin>54.73718919310598352</ymin>
-        <xmax>-127.21160334888270427</xmax>
-        <ymax>54.73982246049622091</ymax>
-      </wgs84extent>
       <id>WaterPoly_201820181106201327005</id>
       <datasource>./main-data.gpkg|layername=water</datasource>
       <keywordList>
@@ -7577,18 +7457,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="LineStringZ" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>-127.21956900000000701</xmin>
-        <ymin>54.73116699999999923</ymin>
-        <xmax>-127.21093399999999463</xmax>
-        <ymax>54.73410899999999657</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.21956900000000701</xmin>
-        <ymin>54.73116699999999923</ymin>
-        <xmax>-127.21093399999999463</xmax>
-        <ymax>54.73410899999999657</ymax>
-      </wgs84extent>
       <id>adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f</id>
       <datasource>./gpx/2024 Updates/adventure-trail-gaia.kml|layername=adventure-trail-gaia|geometrytype=LineString25D</datasource>
       <keywordList>
@@ -8041,18 +7909,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="LineStringZ" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>-127.18788200000000188</xmin>
-        <ymin>54.74927799999999678</ymin>
-        <xmax>-127.18017700000000048</xmax>
-        <ymax>54.75623300000000171</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.18788200000000188</xmin>
-        <ymin>54.74927799999999678</ymin>
-        <xmax>-127.18017700000000048</xmax>
-        <ymax>54.75623300000000171</ymax>
-      </wgs84extent>
       <id>classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c</id>
       <datasource>./gpx/2024 Updates/classic-bonus-view - gaia.kml|layername=classic-bonus-view - gaia|geometrytype=LineString25D</datasource>
       <keywordList>
@@ -8509,18 +8365,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiLineString" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>612264.1875</xmin>
-        <ymin>6064924</ymin>
-        <xmax>616653.125</xmax>
-        <ymax>6069295</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.25707594570349102</xmin>
-        <ymin>54.71806597909053238</ymin>
-        <xmax>-127.18722125527310141</xmax>
-        <ymax>54.75832755604274382</ymax>
-      </wgs84extent>
       <id>early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207</id>
       <datasource>./main-data.gpkg|layername=early_season</datasource>
       <keywordList>
@@ -9542,18 +9386,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Point" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="Point" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>611690.25</xmin>
-        <ymin>6065174.5</ymin>
-        <xmax>616961.8125</xmax>
-        <ymax>6069295</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.26588582446314035</xmin>
-        <ymin>54.72024438894737841</ymin>
-        <xmax>-127.18242696001458114</xmax>
-        <ymax>54.75845547753873177</ymax>
-      </wgs84extent>
       <id>poi_b5008d4e_d780_4454_9979_a91bf75ab10d</id>
       <datasource>./main-data.gpkg|layername=poi</datasource>
       <keywordList>
@@ -10198,18 +10030,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiLineString" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>610963.5625</xmin>
-        <ymin>6065542</ymin>
-        <xmax>615536.5625</xmax>
-        <ymax>6068324.5</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.27702271246147347</xmin>
-        <ymin>54.72387475223873565</ymin>
-        <xmax>-127.20494880924037773</xmax>
-        <ymax>54.74989877973583674</ymax>
-      </wgs84extent>
       <id>race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f</id>
       <datasource>./main-data.gpkg|layername=race_routes</datasource>
       <keywordList>
@@ -10886,18 +10706,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="0" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Point" labelsEnabled="1" autoRefreshMode="Disabled" readOnly="0" wkbType="Point" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>613581.375</xmin>
-        <ymin>6065936.5</ymin>
-        <xmax>614985.125</xmax>
-        <ymax>6068096</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.2362420951061921</xmin>
-        <ymin>54.7275446836941768</ymin>
-        <xmax>-127.21360203075388995</xmax>
-        <ymax>54.74726145385960052</ymax>
-      </wgs84extent>
       <id>soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237</id>
       <datasource>./main-data.gpkg|layername=soup_stations</datasource>
       <keywordList>
@@ -11520,18 +11328,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="MultiLineString" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>610963.5625</xmin>
-        <ymin>6064924</ymin>
-        <xmax>616961.8125</xmax>
-        <ymax>6069295</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.27725820667434675</xmin>
-        <ymin>54.71799431693389693</ymin>
-        <xmax>-127.18242696001458114</xmax>
-        <ymax>54.75861650498497823</ymax>
-      </wgs84extent>
       <id>trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98</id>
       <datasource>./main-data.gpkg|layername=trails</datasource>
       <keywordList>
@@ -12003,18 +11799,6 @@ def my_form_open(dialog, layer, feature):
       <mapTip enabled="1"></mapTip>
     </maplayer>
     <maplayer symbologyReferenceScale="-1" simplifyDrawingHints="1" legendPlaceholderImage="" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" refreshOnNotifyMessage="" minScale="100000000" geometry="Line" labelsEnabled="0" autoRefreshMode="Disabled" readOnly="0" wkbType="LineStringZ" simplifyAlgorithm="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" maxScale="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingTol="1">
-      <extent>
-        <xmin>-127.19316999999999496</xmin>
-        <ymin>54.75394399999999706</ymin>
-        <xmax>-127.18718599999999697</xmax>
-        <ymax>54.75654899999999969</ymax>
-      </extent>
-      <wgs84extent>
-        <xmin>-127.19316999999999496</xmin>
-        <ymin>54.75394399999999706</ymin>
-        <xmax>-127.18718599999999697</xmax>
-        <ymax>54.75654899999999969</ymax>
-      </wgs84extent>
       <id>vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee</id>
       <datasource>./gpx/2024 Updates/vv-connector-gaia.kml|layername=vv-connector-gaia|geometrytype=LineString25D</datasource>
       <keywordList>
@@ -13790,7 +13574,7 @@ def my_form_open(dialog, layer, feature):
           </symbol>
         </fillSymbol2>
       </LayoutItem>
-      <LayoutItem titleAlignment="1" background="true" outlineWidthM="0.3,mm" size="40.0812,88.6547,mm" legendFilterByAtlas="0" minSymbolSize="0" symbolAlignment="1" map_uuid="{604306bd-3f44-49a6-9355-e5f81bc8026e}" position="3.9032,163.507,mm" splitLayer="0" blendMode="0" wrapChar="" type="65642" equalColumnWidth="0" wmsLegendWidth="50" positionLock="true" symbolWidth="7" frame="false" excludeFromExports="0" rasterBorderWidth="0" maxSymbolSize="0" resizeToContents="1" templateUuid="{d0845c19-673e-4e82-b422-a93cfb11ab1e}" columnSpace="2" frameJoinStyle="miter" positionOnPage="3.9032,163.507,mm" title="Legend" symbolHeight="4" visibility="1" columnCount="1" groupUuid="" zValue="4" boxSpace="2" itemRotation="0" uuid="{d0845c19-673e-4e82-b422-a93cfb11ab1e}" wmsLegendHeight="25" opacity="1" referencePoint="0" id="" rasterBorderColor="0,0,0,255" rasterBorder="1">
+      <LayoutItem titleAlignment="1" background="true" outlineWidthM="0.3,mm" size="42.7436,88.7377,mm" legendFilterByAtlas="0" minSymbolSize="0" symbolAlignment="1" map_uuid="{604306bd-3f44-49a6-9355-e5f81bc8026e}" position="3.9032,163.507,mm" splitLayer="0" blendMode="0" wrapChar="" type="65642" equalColumnWidth="0" wmsLegendWidth="50" positionLock="true" symbolWidth="7" frame="false" excludeFromExports="0" rasterBorderWidth="0" maxSymbolSize="0" resizeToContents="1" templateUuid="{d0845c19-673e-4e82-b422-a93cfb11ab1e}" columnSpace="2" frameJoinStyle="miter" positionOnPage="3.9032,163.507,mm" title="Legend" symbolHeight="4" visibility="1" columnCount="1" groupUuid="" zValue="4" boxSpace="2" itemRotation="0" uuid="{d0845c19-673e-4e82-b422-a93cfb11ab1e}" wmsLegendHeight="25" opacity="1" referencePoint="0" id="" rasterBorderColor="0,0,0,255" rasterBorder="1">
         <FrameColor green="0" blue="0" alpha="255" red="0"/>
         <BackgroundColor green="255" blue="255" alpha="166" red="255"/>
         <LayoutObject>
@@ -14070,6 +13854,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer name="Trails" expanded="1" legend_split_behavior="0" id="Trails_201820181106201327000" providerKey="ogr" source="./main-data.gpkg|layername=trails" legend_exp="" patch_size="0,0" checked="Qt::Checked">
             <customproperties>
               <Option type="Map">
+                <Option name="cached_name" type="QString" value="Trails"/>
                 <Option name="expandedLegendNodes" type="QString" value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}"/>
               </Option>
             </customproperties>
@@ -14267,7 +14052,7 @@ def my_form_open(dialog, layer, feature):
         </atlasClippingSettings>
         <itemClippingSettings forceLabelsInside="0" clippingType="0" clipSource="" enabled="0"/>
       </LayoutItem>
-      <LayoutItem mapFlags="0" groupUuid="" blendMode="0" mapRotation="0" position="0,0,mm" excludeFromExports="0" size="431.85,278.85,mm" positionOnPage="0,0,mm" zValue="1" referencePoint="0" followPreset="false" templateUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" positionLock="false" frameJoinStyle="miter" id="Main Map" background="true" type="65639" itemRotation="0" keepLayerSet="false" outlineWidthM="0.3,mm" drawCanvasItems="true" isTemporal="0" visibility="1" frame="true" followPresetName="" labelMargin="0,mm" uuid="{f14591f3-4239-4fe7-a150-c560be19875c}" opacity="1">
+      <LayoutItem mapFlags="0" groupUuid="" blendMode="0" mapRotation="0" position="0,0,mm" excludeFromExports="0" size="431.85,278.85,mm" positionOnPage="0,0,mm" zValue="1" referencePoint="0" followPreset="false" templateUuid="{f14591f3-4239-4fe7-a150-c560be19875c}" positionLock="true" frameJoinStyle="miter" id="Main Map" background="true" type="65639" itemRotation="0" keepLayerSet="false" outlineWidthM="0.3,mm" drawCanvasItems="true" isTemporal="0" visibility="1" frame="true" followPresetName="" labelMargin="0,mm" uuid="{f14591f3-4239-4fe7-a150-c560be19875c}" opacity="1">
         <FrameColor green="0" blue="0" alpha="255" red="0"/>
         <BackgroundColor green="255" blue="255" alpha="255" red="255"/>
         <LayoutObject>
@@ -14662,7 +14447,7 @@ def my_form_open(dialog, layer, feature):
           </dd_properties>
         </text-style>
       </LayoutItem>
-      <LayoutItem segmentSizeMode="0" background="false" outlineWidthM="0.3,mm" size="202.99,28.2601,mm" lineJoinStyle="miter" numSubdivisions="1" position="211.93,710.458,mm" numSegments="4" minBarWidth="50" blendMode="0" segmentMillimeters="43.0931" maxBarWidth="150" alignment="0" type="65646" subdivisionsHeight="1.5" positionLock="true" unitType="meters" frame="false" excludeFromExports="0" numUnitsPerSegment="250" height="6" templateUuid="{cc834c7e-7638-47a5-b09b-5532531a3f50}" numMapUnitsPerScaleBarUnit="1" outlineWidth="0.3" frameJoinStyle="miter" positionOnPage="211.93,710.458,mm" labelBarSpace="3" style="Single Box" numSegmentsLeft="0" visibility="1" groupUuid="" zValue="5" lineCapStyle="square" itemRotation="0" uuid="{cc834c7e-7638-47a5-b09b-5532531a3f50}" unitLabel="m" labelHorizontalPlacement="0" opacity="1" boxContentSpace="1" labelVerticalPlacement="0" referencePoint="0" id="Scale Bar" mapUuid="{7216c517-2b4c-4314-836e-8667a1a24000}">
+      <LayoutItem segmentSizeMode="0" background="false" outlineWidthM="0.3,mm" size="191.87,28.2601,mm" lineJoinStyle="miter" numSubdivisions="1" position="211.93,710.458,mm" numSegments="4" minBarWidth="50" blendMode="0" segmentMillimeters="40.3129" maxBarWidth="150" alignment="0" type="65646" subdivisionsHeight="1.5" positionLock="true" unitType="meters" frame="false" excludeFromExports="0" numUnitsPerSegment="250" height="6" templateUuid="{cc834c7e-7638-47a5-b09b-5532531a3f50}" numMapUnitsPerScaleBarUnit="1" outlineWidth="0.3" frameJoinStyle="miter" positionOnPage="211.93,710.458,mm" labelBarSpace="3" style="Single Box" numSegmentsLeft="0" visibility="1" groupUuid="" zValue="5" lineCapStyle="square" itemRotation="0" uuid="{cc834c7e-7638-47a5-b09b-5532531a3f50}" unitLabel="m" labelHorizontalPlacement="0" opacity="1" boxContentSpace="1" labelVerticalPlacement="0" referencePoint="0" id="Scale Bar" mapUuid="{7216c517-2b4c-4314-836e-8667a1a24000}">
         <FrameColor green="0" blue="0" alpha="255" red="0"/>
         <BackgroundColor green="255" blue="255" alpha="255" red="255"/>
         <LayoutObject>
@@ -15231,6 +15016,7 @@ def my_form_open(dialog, layer, feature):
           <layer-tree-layer name="Trails" expanded="1" legend_split_behavior="0" id="Trails_201820181106201327000" providerKey="ogr" source="./main-data.gpkg|layername=trails" legend_exp="" patch_size="0,0" checked="Qt::Checked">
             <customproperties>
               <Option type="Map">
+                <Option name="cached_name" type="QString" value="Trails"/>
                 <Option name="expandedLegendNodes" type="QString" value="{b4baac2d-ed5c-4f74-8e33-ad5af30718f4}"/>
               </Option>
             </customproperties>
@@ -15285,7 +15071,7 @@ def my_form_open(dialog, layer, feature):
             <Option/>
           </customproperties>
         </LayoutObject>
-        <Extent ymax="6069322.52369016502052546" xmin="610943.12656281073577702" xmax="616688.60656867106445134" ymin="6064880.65030468162149191"/>
+        <Extent ymax="6069475.69173551816493273" xmin="610896.68683137698099017" xmax="617038.40683137695305049" ymin="6064727.48225932847708464"/>
         <LayerSet/>
         <AtlasMap margin="0.10000000000000001" atlasDriven="0" scalingMode="2"/>
         <labelBlockingItems/>
@@ -33925,7 +33711,7 @@ def my_form_open(dialog, layer, feature):
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayer="POI_2018_copy20181106204310841" destinationLayerName="POI" destinationLayerSource="/Users/tom/source/bvnordic/mapping/main-data.gpkg|layername=poi" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerProvider="ogr" autoCommitFeatures="0" destinationLayer="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa" destinationLayerName="Adventure Trail as planned.kml" destinationLayerSource="/Users/tom/source/bvnordic/mapping/gpx/2024 Updates/Adventure Trail as planned.kml|layername=Adventure Trail as planned.kml|geometrytype=LineString25D|uniqueGeometryType=yes" autoAddTrackVertices="0" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
