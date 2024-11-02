@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.34.12-Prizren" saveUserFull="Thomas Christian" saveDateTime="2024-11-01T20:58:49" saveUser="tom" projectname="">
+<qgis version="3.34.12-Prizren" saveUserFull="Thomas Christian" saveDateTime="2024-11-01T21:18:49" saveUser="tom" projectname="">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -22,7 +22,7 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group checked="Qt::Checked" expanded="1" groupLayer="" name="gpx">
+    <layer-tree-group checked="Qt::Checked" expanded="0" groupLayer="" name="gpx">
       <customproperties>
         <Option/>
       </customproperties>
@@ -177,25 +177,25 @@
   </layer-tree-group>
   <snapping-settings intersection-snapping="0" type="3" tolerance="6" unit="1" minScale="0" maxScale="0" enabled="1" mode="2" self-snapping="0" scaleDependencyMode="0">
     <individual-layer-settings>
+      <layer-setting units="1" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="0" id="WaterPoly_201820181106201327005" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
       <layer-setting units="0" id="LodgeArea_201820181106201326918" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
       <layer-setting units="1" id="vv_connector_gaia_ac7ddcfd_5d3d_4599_ba5a_5420bc55b8ee" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="pine_swamp_bypass_gaia_56352ba4_40e6_4781_baf7_a341149fda38" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="0" id="5m_Contour_Clip_Simplified20181127205312605" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="0" id="Trails_201820181106201327000" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="0" id="WaterPoly_201820181106201327005" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="classic_bonus_view___gaia_c5b20b35_2375_4fd1_b27b_72acd7bb715c" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="poi_b5008d4e_d780_4454_9979_a91bf75ab10d" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="0" id="Other_Roads_201820181106201326968" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
-      <layer-setting units="1" id="race_routes_joined_9a6bacbd_97b4_4fa4_aa7f_c8186be4467f" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
       <layer-setting units="0" id="Inset_Extent_315620181203214745058" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
       <layer-setting units="0" id="POI_2018_copy20181106204310841" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="trails_ccd6f0db_e6a5_4514_ad53_2e6ed23f1b98" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="Adventure_Trail_as_planned_kml_7f68aae4_bbef_4a63_aa5a_79496e90fafa" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="0" id="Other_Roads_201820181106201326968" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="poi_b5008d4e_d780_4454_9979_a91bf75ab10d" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="0" id="5m_Contour_Clip_Simplified20181127205312605" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="adventure_trail_gaia_94ab4964_987a_452e_9eb1_27453ecf203f" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="pine_swamp_bypass_gaia_56352ba4_40e6_4781_baf7_a341149fda38" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="0" id="Trails_201820181106201327000" type="2" tolerance="0" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="early_season_4f8dfc62_e2a9_4a87_9298_4e13970f2207" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="VV_to_new_DTM_turn_kml_6058d967_f03a_4180_80da_a729e9fc1d64" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
       <layer-setting units="1" id="Bonus_VV_kml_3755a615_af47_40ce_8523_977ae7a6883e" type="0" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
+      <layer-setting units="1" id="soup_stations_8d27f03e_85ba_4dcc_be69_51ae3f029237" type="1" tolerance="12" minScale="0" maxScale="0" enabled="0"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
@@ -227,7 +227,7 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::Checked" name="gpx">
+    <legendgroup open="false" checked="Qt::Checked" name="gpx">
       <legendgroup open="true" checked="Qt::Checked" name="2024 Updates">
         <legendlayer open="true" checked="Qt::Unchecked" name="pine-swamp-bypass-gaia" showFeatureCount="0" drawingOrder="-1">
           <filegroup hidden="false" open="true">
@@ -9593,7 +9593,7 @@ def my_form_open(dialog, layer, feature):
       <attributeactions>
         <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
       </attributeactions>
-      <attributetableconfig sortOrder="0" sortExpression="&quot;TRAIL_NAME&quot;" actionWidgetStyle="dropDown">
+      <attributetableconfig sortOrder="0" sortExpression="&quot;TRAIL_ID&quot;" actionWidgetStyle="dropDown">
         <columns>
           <column hidden="0" type="field" width="-1" name="fid"/>
           <column hidden="0" type="field" width="-1" name="TRAIL_ID"/>
