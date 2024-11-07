@@ -31,7 +31,7 @@ class NordicTags(TranslationBase):
             f"{PISTE_PREFIX}oneway": {0: "no", 1: "yes"}[int(tags.get("dog_friend", 0))],
             "dog": {0: "no", 1: "yes"}[int(tags.get("dog_friend", 0))],
             "lit": {0: "no", 1: "yes"}[int(tags.get("lights", 0))],
-            f"{PISTE_PREFIX}grooming": "classic;skating",
+            f"{PISTE_PREFIX}grooming": {0: "classic;skating", 1: "classic"}[int(tags.get("classic_only", 0))],
             "network": "BV Nordic Centre",
             f"{BVNORDIC_PREFIX}closed": {"0": "no", "1": "yes"}[str(tags.get("closed"))],
             f"{BVNORDIC_PREFIX}readme": "Created by Bulkley Valley Nordic Centre GIS. Please contact osm@bvnordic.ca before making any changes.",
