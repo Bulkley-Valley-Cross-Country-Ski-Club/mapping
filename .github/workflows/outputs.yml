@@ -17,7 +17,7 @@ jobs:
           echo $UNIQUE_DIR > unique.dir
           echo $LOCAL_OUTPUT_DIR > local-output.dir
       - name: Retain Directory Data
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: dirs
           path: '*.dir'
@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Retrieve Directory Data
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: dirs
       - name: Update Satellite Imagery
@@ -48,7 +48,7 @@ jobs:
           cicd/scripts/pull_or_build.sh repo=tomfumb image=qgis-exporter:2 build_dir=cicd/export/docker context_dir=cicd upload_if_missing=1
           docker run --rm -v $PWD:/code tomfumb/qgis-exporter:2 /code/cicd/export/docker/generate.sh output_base=/code/${{ steps.read_to_var.outputs.LOCAL_OUTPUT_DIR }} pdf=1
       - name: Retain Generated Layouts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: outputs
           path: output
@@ -60,7 +60,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Retrieve Directory Data
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: dirs
       - name: Read to Var
@@ -77,7 +77,7 @@ jobs:
         run: |
           cicd/osm/scripts/render.sh local_output_dir=${{ steps.read_to_var.outputs.LOCAL_OUTPUT_DIR }}
       - name: Retain OSM Data
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: osm
           path: ${{ steps.read_to_var.outputs.LOCAL_OUTPUT_DIR }}/main/bvnordic.osm*
@@ -89,19 +89,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Retrieve Directory Data
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: dirs
       - name: Clear Conflicting Dir
         run: |
           sudo rm -rf output
       - name: Retrieve Generated Layouts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: outputs
           path: output
       - name: Retrieve OSM
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: osm
       - name: Read to Var
